@@ -16,10 +16,6 @@ body{
 div.container{
 	width : 950px;
 	margin: 0 auto;
-
-	/* guid for layout */
-	background-image  : url('images/backguid.jpg');
-	background-repeat : no-repeat;
 }
 
 div.left{
@@ -79,6 +75,7 @@ div.content div.textpanel{
 div.content div.right{
 	width:400px;
 	min-height:500px;
+	text-align:center;
 }
 
 div.footer div.image{
