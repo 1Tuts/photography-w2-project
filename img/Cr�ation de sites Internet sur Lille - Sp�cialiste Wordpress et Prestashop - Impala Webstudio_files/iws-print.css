@@ -1,0 +1,10 @@
+@charset "utf-8";
+/*  ## BASIC PRINT FORMATTING  ------------------------------------------------------*/
+body {
+	color: #555;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/*  ## REMOVE UNREQUIRED ELEMENTS  --------------------------------------------------*/
+.accessibility, .nav, object {
+	display: none;
+}
