@@ -39,7 +39,6 @@
 	* html body * {
 		overflow:visible;
 	}
-
 	body {
 		font-size:100.01%; /* Fix for rounding errors when scaling font sizes in older versions of Opera browser */
 		background:#fff;
