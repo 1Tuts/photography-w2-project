@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+div{
+	outline:1px solid #666;
+}
+
+div.clear{
+	width:0;
+	height:0;
+	clear:both;	
+}
+
+body{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+div.menu{
+	width:700px;
+	height:50px;
+	margin:auto;	
+}
+
+div.container{
+	width:1350px;
+	height:1446px;
+	background-image:url(../img/main_bg.jpg);
+	background-repeat:no-repeat;
+	margin:auto;
+}
+
+div.main-pic{
+	width:716px;
+	height:318px;
+	margin:auto;
+	margin-top:46px;
+}
+
+div.con-up{
+	width:712px;
+	height:185px;
+	margin:auto;
+	margin-top:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+div.con-up-left{
+	width:225px;
+	height:183px;
+	float:left;
+	background-image:url(../2.jpg);
+}
+
+div.left-into{
+	width:200px;
+	height:130px;
+	margin:auto;
+	margin-top:12px;
+}
+
+div.con-up-right{
+	width:225px;
+	height:183px;
+	float:right;
+	background-image:url(../2.jpg);
+}
+
+div.right-into{
+	width:200px;
+	height:130px;
+	margin:auto;
+	margin-top:12px;
+}
+
+div.con-up-middle{
+	width:225px;
+	height:171px;
+	margin:auto;
+	background-image:url(../2.jpg);
+	position:relative;
+	padding-top:12px;
+}
+
+div.middle-into{
+	width:200px;
+	height:130px;
+	
+	margin-top:12px;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+div.content{
+	width:702px;
+	height:625px;
+	margin:auto;
+	margin-top:15px;
+	padding:15px;
+	position:relative;
+}
+
+div.content-left{
+	width:452px;
+	height:625px;
+	margin:auto;
+	float:left;
+}
+
+div.content-left-1{
+	width:452px;
+	height:146px;
+	margin:auto;	
+}
+
+div.sp{
+	width:452px;
+	height:15px;
+	margin:auto;	
+}
+
+div.content-left-2{
+	width:452px;
+	height:146px;
+	margin:auto;
+	margin-top:15px;
+}
+
+div.content-left-3{
+	width:452px;
+	height:146px;
+	margin:auto;
+	margin-top:15px;
+}
+
+div.content-left-4{
+	width:452px;
+	height:146px;
+	margin:auto;
+	margin-top:15px;
+}
+
+div.content-right{
+	width:240px;
+	height:625px;
+	margin-left:462px;
+	position:absolute;
+}
+
+div.content-right-1{
+	width:240px;
+	height:265px;
+	margin:auto;
+}
+
+div.content-right-2{
+	width:240px;
+	height:50px;
+	margin:auto;
+	margin-top:15px;	
+}
+
+div.content-right-3{
+	width:240px;
+	height:225px;
+	margin:auto;
+	margin-top:45px;	
+}
+
+div.head-footer{
+	width:732px;
+	height:30px;
+	margin:auto;	
+}
+
+div.footer{
+	width:732px;
+	height:108px;
+	margin:auto;
+}
