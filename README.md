@@ -11,7 +11,7 @@ photogeraphy art website
 
 * Understanding of photographic techniques and equipment
 ```
-   http://github.com/parasto/photogeraphy-art.git
+   https://github.com/1schools-projects/photography.git
 ```
 
 * Recognition of famous photographers and the best photos
