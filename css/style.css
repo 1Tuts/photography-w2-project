@@ -16,26 +16,17 @@ div.clear{
 	clear:both;	
 }
 
-body{
-	position:absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
+div.container{
+	width:1350px;
+	height:1446px;
+	background:url(../img/main_bg.jpg) no-repeat top center;
+	margin:0 auto;
 }
 
 div.menu{
 	width:700px;
 	height:50px;
 	margin:auto;	
-}
-
-div.container{
-	width:1350px;
-	height:1446px;
-	background-image:url(../img/main_bg.jpg);
-	background-repeat:no-repeat;
-	margin:auto;
 }
 
 div.main-pic{
@@ -160,24 +151,57 @@ div.content-right{
 	position:absolute;
 }
 
+/*------------- content-right-1 (Text) -------------------*/
+
 div.content-right-1{
 	width:240px;
 	height:265px;
 	margin:auto;
 }
 
+div.content-right-1 p{
+	text-align:justify;
+	text-justify:inter-word;
+	font-size:18px;	
+	text-indent:10px;
+	
+}
+
+div.content-right-1 h4{
+	text-align:right;
+	font-size:22px;	
+	text-shadow:5px 5px 5px gray;
+	font-family:myFont;
+	
+}
+
+@font-face
+{
+font-family: myFont;
+src:url(font/KamranBold.ttf); 
+}
+
+/*-------------- content-right-2 (Link-pic) -----------------*/
+
 div.content-right-2{
 	width:240px;
-	height:50px;
+	height:65px;
 	margin:auto;
 	margin-top:15px;	
 }
+
+div.content-right-2 a:hover{
+	opacity:0.8;
+}
+
+/*--------------------*/
+
 
 div.content-right-3{
 	width:240px;
 	height:225px;
 	margin:auto;
-	margin-top:45px;	
+	margin-top:30px;	
 }
 
 div.head-footer{
