@@ -145,6 +145,46 @@ div.content-left-3{
 	margin:auto;
 	margin-top:15px;
 }
+div.content-left-3 a{
+	text-align:right;
+	font-family:myFont1;
+	font-size:28px;
+	line-height:50px;
+	color:#1D6F96;
+	text-decoration:none;	
+	}
+@font-face
+{
+font-family:myFont1;
+src:url(../IranNastaliq.ttf); 
+}
+div.img-a{
+	width:126px;
+	height:111px;
+	float:right;
+	border:2px solid gray;
+	-webkit-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-moz-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-ms-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-o-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	border-radius:15px;
+	margin:10px;
+	box-shadow:3px 3px 25px #999999;	
+	}
+
+div.content-left-3 p{
+	text-align:right;
+	font-family:myFont2;
+	font-size:12px;
+	line-height:26px;
+	color:#4E4E4E;
+	text-decoration:none;	
+	}
+@font-face
+{
+font-family:myFont2;
+src:url(../BDavat.ttf);
+}
 
 div.content-left-4{
 	width:452px;
@@ -152,7 +192,39 @@ div.content-left-4{
 	margin:auto;
 	margin-top:15px;
 }
-
+div.content-left-4 a{
+	text-align:right;
+	font-family:myFont1;
+	font-size:28px;
+	line-height:50px;
+	color:#1D6F96;
+	text-decoration:none;	
+	}
+div.img-b{
+	width:126px;
+	height:84px;
+	float:right;
+	border:2px solid gray;
+	-webkit-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-moz-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-ms-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-o-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	border-radius:15px;
+	margin:10px;
+	box-shadow:3px 3px 25px #999999;	
+	}
+	
+	
+div.content-left-4 p{
+	text-align:right;
+	font-family:myFont2;
+	font-size:12px;
+	line-height:26px;
+	color:#4E4E4E;
+	text-decoration:none;	
+	}
+	
+	
 div.content-right{
 	width:240px;
 	height:625px;
