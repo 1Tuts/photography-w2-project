@@ -23,11 +23,100 @@ div.container{
 	margin:0 auto;
 }
 
+/*----------menu-----------*/
 div.menu{
 	width:700px;
-	height:50px;
+	height:56px;
 	margin:auto;	
 }
+
+div.menu > ul{
+	list-style:none;
+	width:700px;
+	margin:0 auto;
+}
+
+div.menu ul li{
+	float:right;
+	height:56px;
+	text-indent:10px;
+	padding-right:20px;
+	font-family:myFont;
+}
+
+div.menu ul li a{
+	display:block;
+	padding:2px 7px;
+	text-decoration:none;
+	color:#555;
+	font-family:myFont;
+	overflow:hidden;
+	font-size:34px;
+	height:52px;
+}
+@font-face
+{
+font-family:myFont;
+src:url(../IranNastaliq.ttf); 
+}
+
+#home{
+	width:120px;	
+	}
+#gallery{
+	width:85px;	
+	}
+#news{
+	width:70px;	
+	}
+#about{
+	width:112px;	
+	}
+#contact{
+	width:120px;	
+	}
+div.menu li:hover{}
+div.menu li:hover a{
+	color:#800000;
+}
+/*----------submenu-----------*/
+
+div.menu li ul{
+	list-style:none;
+	position:absolute;
+	display:none;
+	padding:0;
+}
+
+div.menu li:hover ul{
+	display:block;
+	color:#000;	
+}
+
+div.menu li li{
+	float:none;
+}
+
+div.menu li:hover ul a{
+	float:none;
+	color:#000;
+	font-family:myFont;
+	font-size:28px;
+}
+@font-face
+{
+font-family:myFont;
+src:url(../IranNastaliq.ttf); 
+}
+
+div.menu li li a:hover{
+	color:#800000;
+}
+
+div.menu li ul li:hover{}
+
+/*----------endmenu-----------*/
+
 
 div.main-pic{
 	width:716px;
