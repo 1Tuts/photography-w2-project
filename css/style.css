@@ -161,7 +161,6 @@ div.content-right-1{
 
 div.content-right-1 p{
 	text-align:justify;
-	text-justify:inter-word;
 	font-size:29px;
 	line-height:41px;	
 	text-indent:20px;
@@ -187,7 +186,8 @@ div.content-right-2{
 	width:240px;
 	height:65px;
 	margin:auto;
-	margin-top:15px;	
+	margin-top:15px;
+	border:3px solid rgb(202,219,204);	
 }
 
 div.content-right-2 p{
