@@ -151,7 +151,7 @@ src:url(../IranNastaliq.ttf);
 }
 div.img-a{
 	width:126px;
-	height:111px;
+	height:84px;
 	float:right;
 	border:2px solid gray;
 	-webkit-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
@@ -193,7 +193,7 @@ div.content-left-4 a{
 	}
 div.img-b{
 	width:126px;
-	height:84px;
+	height:111px;
 	float:right;
 	border:2px solid gray;
 	-webkit-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
