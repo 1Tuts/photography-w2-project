@@ -322,15 +322,15 @@ div.content-right-1{
 
 div.content-right-1 p{
 	text-align:justify;
-	font-size:29px;
-	line-height:41px;	
+	font-size:17px;
+	line-height:30px;	
 	text-indent:20px;
 	font-family:myFont;
 }
 
 div.content-right-1 h4{
 	text-align:center;
-	font-size:44px;	
+	font-size:32px;	
 	text-shadow:2px 4px 4px gray;
 	font-family:myFont;
 }
@@ -338,13 +338,13 @@ div.content-right-1 h4{
 @font-face
 {
 font-family:myFont;
-src:url(../font/IranNastaliq.ttf); 
+src:url(../font/Far_NazaninBd.ttf); 
 }
 
 /*-------------- content-right-2 (Link-pic) -----------------*/
 
 div.content-right-2{
-	width:240px;
+	width:234px;
 	height:65px;
 	margin:auto;
 	margin-top:15px;
