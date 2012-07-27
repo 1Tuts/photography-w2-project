@@ -51,13 +51,13 @@ div.menu ul li a{
 	color:#555;
 	font-family:myFont;
 	overflow:hidden;
-	font-size:34px;
+	font-size:28px;
 	height:52px;
 }
 @font-face
 {
 font-family:myFont;
-src:url(../IranNastaliq.ttf); 
+src:url(../font/BDavat.ttf); 
 }
 
 #home{
@@ -101,12 +101,12 @@ div.menu li:hover ul a{
 	float:none;
 	color:#000;
 	font-family:myFont;
-	font-size:28px;
+	font-size:20px;
 }
 @font-face
 {
 font-family:myFont;
-src:url(../IranNastaliq.ttf); 
+src:url(../font/BDavat.ttf); 
 }
 
 div.menu li li a:hover{
@@ -140,7 +140,7 @@ div.con-up-left{
 	width:225px;
 	height:183px;
 	float:left;
-	background-image:url(../2.jpg);
+	background-image:url(../img/2.jpg);
 }
 
 div.left-into{
@@ -154,7 +154,7 @@ div.con-up-right{
 	width:225px;
 	height:183px;
 	float:right;
-	background-image:url(../2.jpg);
+	background-image:url(../img/2.jpg);
 }
 
 div.right-into{
@@ -168,7 +168,7 @@ div.con-up-middle{
 	width:225px;
 	height:171px;
 	margin:auto;
-	background-image:url(../2.jpg);
+	background-image:url(../img/2.jpg);
 	position:relative;
 	padding-top:12px;
 }
@@ -228,7 +228,7 @@ div.content-left-3{
 div.content-left-3 a{
 	text-align:right;
 	font-family:myFont1;
-	font-size:28px;
+	font-size:20px;
 	line-height:50px;
 	color:#1D6F96;
 	text-decoration:none;	
@@ -236,7 +236,7 @@ div.content-left-3 a{
 @font-face
 {
 font-family:myFont1;
-src:url(../IranNastaliq.ttf); 
+src:url(../font/BDavat.ttf); 
 }
 div.img-a{
 	width:126px;
@@ -256,14 +256,14 @@ div.content-left-3 p{
 	text-align:right;
 	font-family:myFont2;
 	font-size:12px;
-	line-height:26px;
+	line-height:20px;
 	color:#4E4E4E;
 	text-decoration:none;	
 	}
 @font-face
 {
 font-family:myFont2;
-src:url(../BDavat.ttf);
+src:url(../font/tahoma_0.ttf);
 }
 
 div.content-left-4{
@@ -275,7 +275,7 @@ div.content-left-4{
 div.content-left-4 a{
 	text-align:right;
 	font-family:myFont1;
-	font-size:28px;
+	font-size:20px;
 	line-height:50px;
 	color:#1D6F96;
 	text-decoration:none;	
@@ -299,7 +299,7 @@ div.content-left-4 p{
 	text-align:right;
 	font-family:myFont2;
 	font-size:12px;
-	line-height:26px;
+	line-height:20px;
 	color:#4E4E4E;
 	text-decoration:none;	
 	}
