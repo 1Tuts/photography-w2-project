@@ -26,9 +26,9 @@ div.container{
 /*----------menu-----------*/
 div.menu{
 	width:600px;
-	height:41px;
+	height:55px;
 	margin:auto;
-	padding-top:15px;
+	padding-top:10px;
 }
 
 div.menu > ul{
@@ -279,14 +279,9 @@ div.img-a{
 	width:126px;
 	height:84px;
 	float:right;
-	border:2px solid gray;
-	-webkit-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
-	-moz-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
-	-ms-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
-	-o-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
-	border-radius:15px;
+	border:2px solid #999;
 	margin:12px;
-	box-shadow:3px 3px 25px #999999;	
+	box-shadow:3px 3px 35px #999999;	
 	}
 
 div.content-left-3 p{
@@ -321,14 +316,9 @@ div.img-b{
 	width:126px;
 	height:111px;
 	float:right;
-	border:2px solid gray;
-	-webkit-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
-	-moz-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
-	-ms-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
-	-o-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
-	border-radius:15px;
+	border:2px solid #999;
 	margin:10px;
-	box-shadow:3px 3px 25px #999999;	
+	box-shadow:3px 3px 35px #999999;	
 	}
 	
 	
