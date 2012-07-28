@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+div{
+	outline:1px solid #666;
+}
+
+div.clear{
+	width:0;
+	height:0;
+	clear:both;	
+}
+
+div.container{
+	width:1350px;
+	height:1446px;
+	background:url(../img/main_bg.jpg) no-repeat top center;
+	margin:0 auto;
+}
+
+/*----------menu-----------*/
+div.menu{
+	width:700px;
+	height:56px;
+	margin:auto;	
+}
+
+div.menu > ul{
+	list-style:none;
+	width:700px;
+	margin:0 auto;
+}
+
+div.menu ul li{
+	float:right;
+	height:56px;
+	text-indent:10px;
+	padding-right:20px;
+	font-family:myFont;
+}
+
+div.menu ul li a{
+	display:block;
+	padding:2px 7px;
+	text-decoration:none;
+	color:#555;
+	font-family:myFont;
+	overflow:hidden;
+	font-size:34px;
+	height:52px;
+}
+@font-face
+{
+font-family:myFont;
+src:url(../IranNastaliq.ttf); 
+}
+
+#home{
+	width:120px;	
+	}
+#gallery{
+	width:85px;	
+	}
+#news{
+	width:70px;	
+	}
+#about{
+	width:112px;	
+	}
+#contact{
+	width:120px;	
+	}
+div.menu li:hover{}
+div.menu li:hover a{
+	color:#800000;
+}
+/*----------submenu-----------*/
+
+div.menu li ul{
+	list-style:none;
+	position:absolute;
+	display:none;
+	padding:0;
+}
+
+div.menu li:hover ul{
+	display:block;
+	color:#000;	
+}
+
+div.menu li li{
+	float:none;
+}
+
+div.menu li:hover ul a{
+	float:none;
+	color:#000;
+	font-family:myFont;
+	font-size:28px;
+}
+@font-face
+{
+font-family:myFont;
+src:url(../IranNastaliq.ttf); 
+}
+
+div.menu li li a:hover{
+	color:#800000;
+}
+
+div.menu li ul li:hover{}
+
+/*----------endmenu-----------*/
+
+
+div.main-pic{
+	width:716px;
+	height:318px;
+	margin:auto;
+	margin-top:46px;
+}
+
+div.con-up{
+	width:712px;
+	height:185px;
+	margin:auto;
+	margin-top:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+div.con-up-left{
+	width:225px;
+	height:183px;
+	float:left;
+	background-image:url(../2.jpg);
+}
+
+div.left-into{
+	width:200px;
+	height:130px;
+	margin:auto;
+	margin-top:12px;
+}
+
+div.con-up-right{
+	width:225px;
+	height:183px;
+	float:right;
+	background-image:url(../2.jpg);
+}
+
+div.right-into{
+	width:200px;
+	height:130px;
+	margin:auto;
+	margin-top:12px;
+}
+
+div.con-up-middle{
+	width:225px;
+	height:171px;
+	margin:auto;
+	background-image:url(../2.jpg);
+	position:relative;
+	padding-top:12px;
+}
+
+div.middle-into{
+	width:200px;
+	height:130px;
+	
+	margin-top:12px;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+div.content{
+	width:702px;
+	height:625px;
+	margin:auto;
+	margin-top:15px;
+	padding:15px;
+	position:relative;
+}
+
+div.content-left{
+	width:452px;
+	height:625px;
+	margin:auto;
+	float:left;
+}
+
+div.content-left-1{
+	width:452px;
+	height:146px;
+	margin:auto;	
+}
+
+div.sp{
+	width:452px;
+	height:15px;
+	margin:auto;	
+}
+
+div.content-left-2{
+	width:452px;
+	height:146px;
+	margin:auto;
+	margin-top:15px;
+}
+
+div.content-left-3{
+	width:452px;
+	height:146px;
+	margin:auto;
+	margin-top:15px;
+}
+div.content-left-3 a{
+	text-align:right;
+	font-family:myFont1;
+	font-size:28px;
+	line-height:50px;
+	color:#1D6F96;
+	text-decoration:none;	
+	}
+@font-face
+{
+font-family:myFont1;
+src:url(../IranNastaliq.ttf); 
+}
+div.img-a{
+	width:126px;
+	height:84px;
+	float:right;
+	border:2px solid gray;
+	-webkit-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-moz-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-ms-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-o-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	border-radius:15px;
+	margin:12px;
+	box-shadow:3px 3px 25px #999999;	
+	}
+
+div.content-left-3 p{
+	text-align:right;
+	font-family:myFont2;
+	font-size:12px;
+	line-height:26px;
+	color:#4E4E4E;
+	text-decoration:none;	
+	}
+@font-face
+{
+font-family:myFont2;
+src:url(../BDavat.ttf);
+}
+
+div.content-left-4{
+	width:452px;
+	height:146px;
+	margin:auto;
+	margin-top:15px;
+}
+div.content-left-4 a{
+	text-align:right;
+	font-family:myFont1;
+	font-size:28px;
+	line-height:50px;
+	color:#1D6F96;
+	text-decoration:none;	
+	}
+div.img-b{
+	width:126px;
+	height:111px;
+	float:right;
+	border:2px solid gray;
+	-webkit-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-moz-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-ms-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	-o-border-image:url(img/border-image-20x20) 20 20 20 20 stretch stretch;
+	border-radius:15px;
+	margin:10px;
+	box-shadow:3px 3px 25px #999999;	
+	}
+	
+	
+div.content-left-4 p{
+	text-align:right;
+	font-family:myFont2;
+	font-size:12px;
+	line-height:26px;
+	color:#4E4E4E;
+	text-decoration:none;	
+	}
+	
+	
+div.content-right{
+	width:240px;
+	height:625px;
+	margin-left:462px;
+	position:absolute;
+}
+
+/*------------- content-right-1 (Text) -------------------*/
+
+div.content-right-1{
+	width:240px;
+	height:265px;
+	margin:auto;
+}
+
+div.content-right-1 p{
+	text-align:justify;
+	font-size:29px;
+	line-height:41px;	
+	text-indent:20px;
+	font-family:myFont;
+}
+
+div.content-right-1 h4{
+	text-align:center;
+	font-size:44px;	
+	text-shadow:2px 4px 4px gray;
+	font-family:myFont;
+}
+
+@font-face
+{
+font-family:myFont;
+src:url(../font/IranNastaliq.ttf); 
+}
+
+/*-------------- content-right-2 (Link-pic) -----------------*/
+
+div.content-right-2{
+	width:240px;
+	height:65px;
+	margin:auto;
+	margin-top:15px;
+	border:3px solid rgb(202,219,204);	
+}
+
+div.content-right-2 p{
+	font-family:myFontlink;	
+}
+
+@font-face
+{
+font-family:myFontlink;
+src:url(../font/Far_NazaninBd.ttf); 
+}
+
+div.content-right-2 a:hover{
+	opacity:0.8;
+}
+
+/*--------------------*/
+
+
+div.content-right-3{
+	width:240px;
+	height:225px;
+	margin:auto;
+	margin-top:30px;	
+}
+
+div.head-footer{
+	width:732px;
+	height:30px;
+	margin:auto;	
+}
+
+div.footer{
+	width:732px;
+	height:108px;
+	margin:auto;
+}
