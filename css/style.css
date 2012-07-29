@@ -152,6 +152,15 @@ div.left-into{
 	margin:auto;
 	margin-top:12px;
 }
+div.name{
+	width:100px;
+	height:20px;	
+	margin:67px 0px 20px 95px;
+	background-color:#C09FEC;
+	border:1px solid black;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	}
 
 div.con-up-right{
 	width:225px;
@@ -179,7 +188,6 @@ div.con-up-middle{
 div.middle-into{
 	width:200px;
 	height:130px;
-	
 	margin-top:12px;
 	position:absolute;
 	left:0;
