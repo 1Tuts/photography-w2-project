@@ -227,14 +227,21 @@ div.content-left-1{
 	padding:5px;
 	position:relative;	
 }
-div.content-left-1 p{
-	font-size:15px;
-	line-height:1.1;
-	text-align:justify;
-	text-decoration:none;
-	color:#555;
-	direction:rtl;
+div.content-left-1-left{
+	width:290px;
+	height:136px;
+	float:left;
 }
+div.content-left-1-rigth{
+	margin-left:300px;
+	height:134px;
+	border:2px double gray;
+	box-shadow:0 0 15 gray;
+	background:url(../img/photo0202-mm.jpg)  top center no-repeat;
+	background-size:cover;
+	
+}
+
 
 div.sp{
 	width:452px;
@@ -292,7 +299,7 @@ div.img-a{
 	box-shadow:3px 3px 35px #999999;	
 	}
 
-div.content-left-3 p{
+div.content-left-3 p, div.content-left-1 p{
 	text-align:right;
 	font-family:myFont2;
 	font-size:12px;
