@@ -299,6 +299,9 @@ div.img-a{
 	margin:12px;
 	box-shadow:3px 3px 35px #999999;	
 	}
+div.img-a:hover{
+	opacity:0.8;	
+}
 
 div.content-left-3 p, div.content-left-1 p{
 	text-align:right;
@@ -336,7 +339,9 @@ div.img-b{
 	margin:10px;
 	box-shadow:3px 3px 35px #999999;	
 	}
-	
+div.img-b:hover{
+	opacity:0.8;	
+}	
 	
 div.content-left-4 p{
 	text-align:right;
