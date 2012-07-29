@@ -28,16 +28,23 @@ body{
 div.container{
 	width:1350px;
 	height:1446px;
-	background-image:url(../../img/main_bg.jpg);
+	background-image:url(../img/main_bg.jpg);
 	background-repeat:no-repeat;
 	margin:auto;
 }
 
 /*----------menu-----------*/
 div.menu{
+
+	width:600px;
+	height:55px;
+	margin:auto;
+	padding-top:15px;
+
 	width:700px;
 	height:56px;
 	margin:auto;	
+
 }
 
 div.menu > ul{
@@ -67,7 +74,7 @@ div.menu ul li a{
 @font-face
 {
 font-family:myFont;
-src:url(../font/IranNastaliq.ttf); 
+src:url(../photography/font/IranNastaliq.ttf); 
 }
 
 #home{
@@ -116,7 +123,7 @@ div.menu li:hover ul a{
 @font-face
 {
 font-family:myFont;
-src:url(../font/IranNastaliq.ttf); 
+src:url(../photography/font/IranNastaliq.ttf); 
 }
 
 div.menu li li a:hover{
@@ -143,9 +150,106 @@ div.content{
 	position:relative;
 }
 
+
+div.Introduction{
+	width:682px;
+	height:80px;
+	padding:10px;	
+	}
+div.Introduction p{
+	text-align:right;
+	line-height:20px;
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;	
+	}
+	
+div.Photo-Group{
+	width:686px;
+	height:384px;
+	padding:8px;
+	}
+div.img-group{
+	width:680px;
+	height:250px;
+	border:3px solid #999;
+	}
+
+div.photo{
+	width:692px;
+	height:315px;
+	padding:5px;
+	}
+	
+div.photo1{
+	width:154px;
+	height:302px;
+	float:left;
+	padding:5px 9px 2px 9px;	
+	}
+
+div.1{
+	width:144px;
+	height:150px;
+	padding:5px;	
+	}
+div.p1{
+	width:154px;
+	height:150px;	
+	}
+	
+div.photo2{
+	width:154px;
+	height:302px;
+	float:left;
+	padding:5px 9px 2px 9px;	
+	}
+
+div.2{
+	width:144px;
+	height:150px;
+	padding:5px;	
+	}
+div.p2{
+	width:154px;
+	height:150px;	
+	}
+	
+div.photo3{
+	width:154px;
+	height:302px;
+	float:left;
+	padding:5px 9px 2px 9px;	
+	}
+
+div.3{
+	width:144px;
+	height:150px;
+	padding:5px;	
+	}
+div.p3{
+	width:154px;
+	height:150px;	
+	}
+
+div.photo4{
+	width:154px;
+	height:302px;
+	margin-left:510px;
+	padding:5px 9px 2px 9px;	
+	}
+div.4{
+	width:144px;
+	height:150px;
+	padding:5px;	
+	}
+div.p4{
+	width:154px;
+	height:150px;	
+	}				
+
 /*----------footer-----------*/
 div.head-footer{
-	width:732px;
+	width:702px;
 	height:30px;
 	margin:auto;	
 }
