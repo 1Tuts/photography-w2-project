@@ -28,22 +28,21 @@ body{
 div.container{
 	width:1350px;
 	height:1446px;
-	background-image:url(../img/new.jpg);
+	background-image:url(../../img/main_bg.jpg);
 	background-repeat:no-repeat;
-	margin: 0 auto;
+	margin:auto;
 }
 
 /*----------menu-----------*/
 div.menu{
-	width:600px;
-	height:79px;
-	margin:auto;
-	padding-top:10px;
+	width:700px;
+	height:56px;
+	margin:auto;	
 }
 
 div.menu > ul{
 	list-style:none;
-	width:auto;
+	width:700px;
 	margin:0 auto;
 }
 
@@ -62,29 +61,29 @@ div.menu ul li a{
 	color:#555;
 	font-family:myFont;
 	overflow:hidden;
-	font-size:18px;
+	font-size:28px;
 	height:52px;
 }
 @font-face
 {
 font-family:myFont;
-src:url(../IranNastaliq.ttf); 
+src:url(../font/IranNastaliq.ttf); 
 }
 
 #home{
-	width:70px;	
+	width:120px;	
 	}
 #gallery{
-	width:80px;	
+	width:85px;	
 	}
 #news{
 	width:70px;	
 	}
 #about{
-	width:60px;	
+	width:112px;	
 	}
 #contact{
-	width:80px;	
+	width:120px;	
 	}
 div.menu li:hover{}
 div.menu li:hover a{
@@ -117,7 +116,7 @@ div.menu li:hover ul a{
 @font-face
 {
 font-family:myFont;
-src:url(../IranNastaliq.ttf); 
+src:url(../font/IranNastaliq.ttf); 
 }
 
 div.menu li li a:hover{
@@ -144,110 +143,15 @@ div.content{
 	position:relative;
 }
 
-div.Introduction{
-	width:682px;
-	height:80px;
-	padding:10px;	
-	}
-div.Introduction p{
-	text-align:right;
-	line-height:20px;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;	
-	}
-	
-div.Photo-Group{
-	width:686px;
-	height:384px;
-	padding:8px;
-	}
-div.img-group{
-	width:680px;
-	height:250px;
-	border:3px solid #999;
-	}
-
-div.photo{
-	width:692px;
-	height:315px;
-	padding:5px;
-	}
-	
-div.photo1{
-	width:154px;
-	height:302px;
-	float:left;
-	padding:5px 11px 2px 5px;	
-	}
-
-div.1{
-	width:144px;
-	height:150px;
-	padding:5px;	
-	}
-div.p1{
-	width:154px;
-	height:150px;	
-	}
-	
-div.photo2{
-	width:154px;
-	height:302px;
-	float:left;
-	padding:5px 11px 2px 5px;	
-	}
-
-div.2{
-	width:144px;
-	height:150px;
-	padding:5px;	
-	}
-div.p2{
-	width:154px;
-	height:150px;	
-	}
-	
-div.photo3{
-	width:154px;
-	height:302px;
-	float:left;
-	padding:5px 11px 2px 5px;	
-	}
-
-div.3{
-	width:144px;
-	height:150px;
-	padding:5px;	
-	}
-div.p3{
-	width:154px;
-	height:150px;	
-	}
-
-div.photo4{
-	width:154px;
-	height:302px;
-	margin-left:510px;
-	padding:5px 5px 2px 5px;	
-	}
-div.4{
-	width:144px;
-	height:150px;
-	padding:5px;	
-	}
-div.p4{
-	width:154px;
-	height:150px;	
-	}				
 /*----------footer-----------*/
 div.head-footer{
 	width:732px;
 	height:30px;
-	margin:0 auto;	
+	margin:auto;	
 }
 
 div.footer{
 	width:732px;
-	height:90px;
-	margin:0 auto;
+	height:108px;
+	margin:auto;
 }

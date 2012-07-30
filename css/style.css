@@ -151,20 +151,25 @@ div.left-into{
 	height:130px;
 	margin:auto;
 	margin-top:12px;
+	position:relative;
 }
 div.name{
 	width:100px;
 	height:20px;	
-	margin:67px 0px 20px 95px;
 	background-color:#C09FEC;
 	border:1px solid black;
 	opacity:0.6;
 	filter:alpha(opacity=60);
-	
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;	
 	}
 	
 div.txt-g1{
-	width:180px;
+	width:190px;
 	height:20px;
 	margin:0 auto;
 	margin-top:12px;
@@ -172,7 +177,7 @@ div.txt-g1{
 }
 
 div.txt-g2{
-	width:86px;
+	width:99px;
 	height:20px;
 	margin:0 auto;
 	margin-top:12px;
@@ -184,7 +189,7 @@ div.txt-g2{
 }
 
 div.txt-g3{
-	width:146px;
+	width:156px;
 	height:20px;
 	margin:0 auto;
 	margin-top:12px;
