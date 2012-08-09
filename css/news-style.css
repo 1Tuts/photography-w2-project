@@ -157,18 +157,18 @@ font-family:myFont;
 src:url(../font/IranNastaliq.ttf); 
 }
 
-/*---------------------------------*/
+/*-------------------------------- content-info -------------------------------------------------*/
 
 div.content-info{
 	width:auto;
 	min-height:600px;	
 }
 
-/*--------------------------------- Content-Left -------------------------------------------*/
+/*------------------ Content-Left --------------------------------*/
 
 div.contact-left{
 	width:192px;
-	min-height:2395px;
+	min-height:3730px;
 	float:left;	
 	padding:8px;
 	border:1px dashed rgb(185,208,188);
@@ -216,6 +216,7 @@ div.contact-left h2{
 	font-size:14px;
 	font-family:fontP;
 	margin:40px 0 12px 0;	
+	border-bottom:2px solid #B9D0BC;
 }
 
 div.contact-left h3{
@@ -228,17 +229,26 @@ div.contact-left h3{
 
 div.contact-left a{
 	text-decoration:none;
-	color:black;
 }
 
-div.contact-left ul li{
-	/*list-style:circle;*/
-	
+div.contact-left a:hover h3{
+	background-color:#F5FAF8;
+	color:#990000;
 }
 
+div.contact-left li{
+	text-align:right;
+	list-style:circle;
+	font-size:11px;
+	line-height:18px;
+	font-family:'B Traffic',BTraffic,tahoma;	
+}
 
+div.contact-left ul{
+	margin-right:16px;	
+}
 
-/*----------------------------------*/
+/*----------- contact-right -----------------------*/
 
 div.contact-right{
 	min-height:inherit;

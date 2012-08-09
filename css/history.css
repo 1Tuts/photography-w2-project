@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;	
+}
+
+/*div{
+	outline:1px solid #666;
+}*/
+
+div.clear{
+	width:0;
+	height:0;
+	clear:both;	
+}
+
+body{
+	background:url(../img/new.jpg) no-repeat top center;	
+}
+
+div.container{
+	width:760px;
+	margin:0 auto;
+}
+
+/*----------menu-----------*/
+div.menu{
+	width:auto;
+	min-height:75px;
+}
+
+div.menu > ul{
+	list-style:none;
+	width:700px;
+	margin:0 auto;
+}
+
+div.menu ul li{
+	float:right;
+	height:56px;
+	text-indent:10px;
+	padding-right:20px;
+	font-family:myFont;
+}
+
+div.menu ul li a{
+	display:block;
+	padding:2px 7px;
+	text-decoration:none;
+	color:#555;
+	font-family:myFont;
+	overflow:hidden;
+	font-size:28px;
+	height:52px;
+}
+@font-face
+{
+font-family:myFont;
+src:url(../font/IranNastaliq.ttf); 
+}
+
+#home{
+	width:120px;	
+	}
+#gallery{
+	width:85px;	
+	}
+#news{
+	width:70px;	
+	}
+#about{
+	width:112px;	
+	}
+#contact{
+	width:120px;	
+	}
+div.menu li:hover{}
+div.menu li:hover a{
+	color:#800000;
+}
+/*----------submenu-----------*/
+
+div.menu li ul{
+	list-style:none;
+	position:absolute;
+	display:none;
+	padding:0;
+}
+
+div.menu li:hover ul{
+	display:block;
+	color:#000;	
+}
+
+div.menu li li{
+	float:none;
+}
+
+div.menu li:hover ul a{
+	float:none;
+	color:#000;
+	font-family:myFont;
+	font-size:20px;
+}
+@font-face
+{
+font-family:myFont;
+src:url(../font/IranNastaliq.ttf); 
+}
+
+div.menu li li a:hover{
+	color:#800000;
+}
+
+div.menu li ul li:hover{}
+
+
+/*---------------- content----------*/
+
+div.content{
+	width:auto;
+	min-height:800px;
+	padding:22px;
+}
+
+/*------------- content-pic -----------------*/
+
+div.content-pic{
+	width:auto;
+	min-height:200px;
+	display:block;
+	background:-webkit-linear-gradient(left,rgb(197,226,213),beige);
+	background:-moz-linear-gradient(left,rgb(197,226,213),beige);
+	background:-o-linear-gradient(left,rgb(197,226,213),beige);
+	border:2px solid rgb(197,226,213);
+	margin-bottom:20px;
+}
+
+div.old-pic{
+	float:right;
+	width:200px;
+	min-height:130px;
+	padding:34px 0;	
+}
+
+div.new-pic{
+	float:left;
+	width:200px;
+	min-height:100px;
+	padding:47px 0;	
+}
+
+div.text{
+	width:270px;
+	height:70px;
+	color:black;
+	margin:65px 200px 0 220px;
+	
+}
+
+div.text a{
+	text-decoration:none;
+	color:#663300;	
+}
+
+div.text a:hover{
+	color:#990000;	
+}
+
+div.text p{
+	font-family:myFont;	
+	font-size:50px;	
+}
+
+@font-face
+{
+font-family:myFont;
+src:url(../font/IranNastaliq.ttf); 
+}
+
+/*--------------------- content-info -------------------------*/
+
+div.content-info{
+	width:auto;
+	min-height:600px;
+	border:2px dashed rgb(197,226,213);	
+	border-radius:20px;
+	padding:20px;
+}
+
+div.text-pic{
+	float:left;
+	border:1px dotted #C5E2D5;
+	border-radius:5px;
+	margin-right:15px; 	
+}
+
+div.text-pic p.t{
+	position:relative;
+	font-size:9px;
+	color:#993300;
+	text-align:center;	
+}
+
+div.content-info h2 {
+	padding: 10px;
+	margin-top:9px;
+	font-size:22px;
+	color:rgb(0,90,0);
+	/*text-shadow:1px 2px 3px burlyWood;*/
+}
+
+div.content-info a{
+	text-decoration:none;	
+}
+
+div.content-info h3{
+	text-align:right;
+	margin-top:10px;
+	font-size:18px;
+	color:rgb(0,90,0);
+	text-shadow:1px 2px 3px burlyWood;
+}
+
+div.content-info li{
+	text-align:right;
+	list-style:circle;
+	font-size:11px;
+	line-height:18px;
+	font-family:'B Traffic',BTraffic,tahoma;	
+}
+
+div.content-info ul{
+	margin-right:35px;	
+}
+
+span.shadow {
+	background-image: -webkit-radial-gradient(50% 0%, ellipse farthest-side, rgba(130,186,120, 0.25) 0%, rgba(130,186,120, 0) 100%);
+	background-image: -moz-radial-gradient(50% 0%, ellipse farthest-side, rgba(197,226,213, 0.25) 0%, rgba(197,226,213, 0) 100%);
+	background-image: -ms-radial-gradient(50% 0%, ellipse farthest-side, rgba(197,226,213, 0.25) 0%, rgba(197,226,213, 0) 100%);
+	background-image: -o-radial-gradient(50% 0%, ellipse farthest-side, rgba(197,226,213, 0.25) 0%, rgba(197,226,213, 0) 100%);
+	background-image: radial-gradient(50% 0%, ellipse farthest-side, rgba(197,226,213, 0.25) 0%, rgba(197,226,213, 0) 100%);
+	width: 100%;
+	height: 12px;
+	display: block;
+	position: relative;
+}
+
+div.content-info p{
+	text-align:justify;
+	font-size:12px;
+	line-height:20px;	
+	font-family:'B Traffic',BTraffic,tahoma;
+	margin-top:10px;
+	text-indent:20px;	
+}
+
+div.content-info span{
+	text-indent:20px;
+}
+
+
+
+/*----------footer-----------*/
+
+div.footer{
+	width:auto;
+	height:108px;
+}
