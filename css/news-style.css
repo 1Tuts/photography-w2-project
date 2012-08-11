@@ -27,33 +27,35 @@ div.container{
 
 /*----------menu-----------*/
 div.menu{
-	width:auto;
-	min-height:75px;
+    width:500px;
+    height:41px;
+    margin:auto;
+	padding-top:15px;
 }
 
 div.menu > ul{
-	list-style:none;
-	width:700px;
-	margin:0 auto;
+    list-style:none;
+    width:auto;
+    margin:0 auto;
 }
 
 div.menu ul li{
-	float:right;
-	height:56px;
-	text-indent:10px;
-	padding-right:20px;
-	font-family:myFont;
+    float:right;
+    height:56px;
+    text-indent:10px;
+    padding-right:20px;
+    font-family:myFont;
 }
 
 div.menu ul li a{
-	display:block;
-	padding:2px 7px;
-	text-decoration:none;
-	color:#555;
-	font-family:myFont;
-	overflow:hidden;
-	font-size:28px;
-	height:52px;
+    display:block;
+    padding:2px 7px;
+    text-decoration:none;
+    color:#555;
+    font-family:myFont;
+    overflow:hidden;
+    font-size:28px;
+    height:52px;
 }
 @font-face
 {
@@ -62,59 +64,25 @@ src:url(../font/IranNastaliq.ttf);
 }
 
 #home{
-	width:120px;	
-	}
+    width:70px;    
+    }
 #gallery{
-	width:85px;	
-	}
+    width:50px; 
+    }
 #news{
-	width:70px;	
-	}
+    width:60px; 
+    }
 #about{
-	width:112px;	
-	}
+    width:60px;    
+    }
 #contact{
-	width:120px;	
-	}
-div.menu li:hover{}
+    width:60px;    
+    }
 div.menu li:hover a{
-	color:#800000;
-}
-/*----------submenu-----------*/
-
-div.menu li ul{
-	list-style:none;
-	position:absolute;
-	display:none;
-	padding:0;
+    color:#800000;
 }
 
-div.menu li:hover ul{
-	display:block;
-	color:#000;	
-}
-
-div.menu li li{
-	float:none;
-}
-
-div.menu li:hover ul a{
-	float:none;
-	color:#000;
-	font-family:myFont;
-	font-size:20px;
-}
-@font-face
-{
-font-family:myFont;
-src:url(../font/IranNastaliq.ttf); 
-}
-
-div.menu li li a:hover{
-	color:#800000;
-}
-
-div.menu li ul li:hover{}
+/*----------endmenu-----------*/
 
 
 /*---------------- content----------*/

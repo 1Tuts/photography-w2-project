@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 *{
 	padding:0;
 	margin:0;
@@ -32,6 +31,7 @@ div.container{
 	background-repeat:no-repeat;
 	margin:auto;
 }
+
 
 /*----------menu-----------*/
 div.menu{
@@ -93,151 +93,75 @@ div.menu li:hover a{
 /*----------endmenu-----------*/
 
 div.main-pic{
-	width: 716px;
-	height: 318px;
-	margin: auto;
-	margin-top: 33px;
+	width:690px;
+	height:318px;
+	margin:auto;
+	margin-top:40px;
+	overflow:hidden;
 }
+div.base{
+	width:3500px;	
+	height:318px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	-webkit-animation:slider 15s infinite;
+	-moz-animation:slider 15s infinite;
+	-ms-animation:slider 15s infinite;
+	-o-animation:slider 15s infinite;
+	}
 
+@-webkit-keyframes slider {
+	0%{ left:0 }
+	10%{ left:0 }
+	20%{ left:-710px }
+	30%{ left:-710px }
+	40%{ left:-1410px }
+	50%{ left:-1410px }
+	60%{ left:-2100px}
+	70%{ left:-2100px }
+	80%{ left:-2800px }
+	90%{ left:-2800px }
+	95%{ left:-3500px  }
+	98%{left:-3500px }
+	100%{ left:0 }
+}
 
 /*---------------- content----------*/
 div.content{
 	width:702px;
-	height:926px;
+	height:810px;
 	margin:auto;
 	margin-top:25px;
 	padding:15px;
 	position:relative;
 }
-
-
-div.matn{
-	width:682px;
-	height:80px;
-	padding:10px;	
-	}
-div.matn p{
-	text-align:right;
-	line-height:20px;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;	
-	}
-p.matn2{
-	text-align:right;
-	line-height:26px;
-	font-size:14px;
+div.content h2{
+	text-align:center;
+	line-height:28px;
 	font-family:Tahoma, Geneva, sans-serif;
-	color:#494949;
+	font-weight:bold;
+	color:#2A2A2A;
+	text-shadow:3px 3px #999999;	
+	}
+div.content p{
+	text-align:right;
+	line-height:24px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#2A2A2A;
 	text-align:justify;
+			
 	}
-	
-div.Photo-Group{
-	width:686px;
-	height:384px;
-	padding:8px;
-	}
-div.img-group{
-	width:680px;
-	height:250px;
-	border:3px solid #999;
-	}
-
-div.photo{
-	width:699px;
-	height:303px;
-	padding:0 1px;
-	}	
-div.photo1{
-	width:175px;
-	height:302px;
-	float:left;
-	
-	}
-
-div.fatemeh{
-	width:144px;
-	height:150px;
-	margin:0 auto;	
-	}
-div.p1{
-	margin:10px;
-	text-align:right;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;
-	line-height:16px;
-	color:#494949;
-	}
-
-div.photo2{
-	width:175px;
-	height:302px;
-	float:left;	
-	}
-
-div.aileen{
-	width:144px;
-	height:150px;
-	margin:0 auto;	
-	}
-	
-div.p2{
-	margin:10px;
-	text-align:right;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;
-	line-height:16px;
-	color:#494949;
-	}
-	
-div.photo3{
-	width:175px;
-	height:302px;
-	float:left;	
-	}
-
-div.farzaneh{
-	width:144px;
-	height:150px;
-	margin:0 auto;	
-	}
-div.p3{
-	margin:10px;
-	text-align:right;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;
-	line-height:16px;
-	color:#494949;
-	}
-
-div.photo4{
-	width:175px;
-	height:302px;
-	margin-left:525px;	
-	}
-div.ameneh{
-	width:144px;
-	height:150px;
-	margin:0 auto;	
-	}
-div.p4{
-	margin:10px;
-	text-align:right;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;
-	line-height:16px;
-	color:#494949;
-	}
-				
-
 /*----------footer-----------*/
 div.head-footer{
-	width:702px;
+	width:732px;
 	height:30px;
 	margin:auto;	
 }
 
 div.footer{
-	width:702px;
+	width:732px;
 	height:108px;
 	margin:auto;
 }
