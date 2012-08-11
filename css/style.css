@@ -6,10 +6,10 @@
 	margin:0;
 }
 
-div{
+/*div{
 	outline:1px solid #666;	
 }
-
+*/
 div.clear{
 	width:0;
 	height:0;
@@ -88,20 +88,14 @@ div.main-pic{
 	height: 318px;
 	margin: auto;
 	margin-top: 33px;
-	opacity:0.7;
 }
-div.main-pic:hover{
-	opacity:1;	
-}
+
 div.con-up{
 	width:712px;
 	height:185px;
 	margin:auto;
 	margin-top:25px;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:15px;
-	padding-right:15px;
+	padding:10px 15px;
 }
 
 div.con-up-left{
@@ -227,28 +221,35 @@ h6 a{
 	color:#1D6F96;
 }
 
+/*------------------- div.content-left-1 (history) -------------------*/
+
 div.content-left-1{
 	width:442px;
 	height:136px;
 	margin:auto;
 	padding:5px;
-	position:relative;	
+	position:relative;
+	border:1px dotted rgb(202,219,204);		
 }
+
 div.content-left-1-left{
 	width:290px;
 	height:136px;
 	float:left;
 }
+
 div.content-left-1-rigth{
 	margin-left:300px;
 	height:134px;
 	border:2px double gray;
-	box-shadow:0 0 15 gray;
+	-webkit-box-shadow:0 0 15px gray;
+	-moz-box-shadow:0 0 15px gray;
+	-ms-box-shadow:0 0 15px gray;
+	-o-box-shadow:0 0 15px gray;
 	background:url(../img/photo0202-mm.jpg)  top center no-repeat;
 	background-size:cover;
 	
 }
-
 
 div.sp{
 	width:452px;
@@ -256,34 +257,43 @@ div.sp{
 	margin:auto;	
 }
 
+/*------------------------- content-left-2 ------------------------*/
+
 div.content-left-2{
-	width:422px;
+	width:432px;
 	height:106px;
 	margin:auto;
 	margin-top:15px;
 	padding:10px;
+	border:1px dotted rgb(202,219,204);
 }
+
 div.pic{
 	float:left;
 	width:135px;
 	height:100px;
 	margin-right:10px;
 }
+
 div.pic1{
 	margin-left:290px;
 	height:100px;
 }
+
 div.img:hover{
 	opacity:0.8;	
 }
 
+/*--------------------- content-left-3 (Photography Techniques) -----------------------------*/
 
 div.content-left-3{
 	width:452px;
 	height:146px;
 	margin:auto;
 	margin-top:15px;
+	border:1px dotted rgb(202,219,204);
 }
+
 div.content-left-3 a,div.content-left-1 h3 a{
 	text-align:right;
 	font-family:'B Traffic',BTraffic,tahoma;
@@ -291,7 +301,7 @@ div.content-left-3 a,div.content-left-1 h3 a{
 	line-height:50px;
 	color:#1D6F96;
 	text-decoration:none;	
-	}
+}
 
 div.img-a{
 	width:126px;
@@ -300,7 +310,8 @@ div.img-a{
 	border:2px solid #999;
 	margin:12px;
 	box-shadow:3px 3px 35px #999999;	
-	}
+}
+
 div.img-a:hover{
 	opacity:0.8;	
 }
@@ -312,13 +323,18 @@ div.content-left-3 p, div.content-left-1 p{
 	line-height:25px;
 	color:#4E4E4E;
 	text-decoration:none;	
-	}
+}
+
+/*---------------------- div.content-left-4 (famous photographer) ----------------------*/
+
 div.content-left-4{
 	width:452px;
 	height:146px;
 	margin:auto;
 	margin-top:15px;
+	border:1px dotted rgb(202,219,204);
 }
+
 div.content-left-4 a{
 	text-align:right;
 	font-family:'B Traffic',BTraffic,tahoma;
@@ -326,7 +342,8 @@ div.content-left-4 a{
 	line-height:50px;
 	color:#1D6F96;
 	text-decoration:none;	
-	}
+}
+
 div.img-b{
 	width:126px;
 	height:111px;
@@ -334,7 +351,8 @@ div.img-b{
 	border:2px solid #999;
 	margin:10px;
 	box-shadow:3px 3px 35px #999999;	
-	}
+}
+
 div.img-b:hover{
 	opacity:0.8;	
 }	
@@ -360,15 +378,17 @@ div.content-right{
 /*------------- content-right-1 (Text) -------------------*/
 
 div.content-right-1{
-	width:240px;
-	height:265px;
+	width:210px;
+	height:235px;
 	margin:auto;
+	border:1px dotted rgb(202,219,204);
+	padding:15px;
 }
 
 div.content-right-1 p{
 	text-align:justify;
-	font-size:13px;
-	line-height:30px;	
+	font-size:12px;
+	line-height:27px;	
 	text-indent:20px;
 	font-family:'B Traffic',BTraffic,tahoma;
 }
@@ -376,18 +396,18 @@ div.content-right-1 p{
 div.content-right-1 h4{
 	text-align:center;
 	font-size:20px;	
-	text-shadow:2px 4px 4px gray;
+	text-shadow:2px 2px 3px gray;
 	font-family:'B Traffic',BTraffic,tahoma;
 }
 
 /*-------------- content-right-2 (Link-pic) -----------------*/
 
 div.content-right-2{
-	width:230px;
+	width:240px;
 	height:65px;
 	margin:auto;
 	margin-top:15px;
-	border:3px solid rgb(202,219,204);	
+	border:2px solid rgb(202,219,204);	
 }
 
 div.content-right-2 p{
