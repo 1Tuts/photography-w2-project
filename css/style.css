@@ -121,9 +121,8 @@ div.name{
 	background-color:#C09FEC;
 	border:1px solid black;
 	opacity:0.6;
-	filter:alpha(opacity=60);
 	position:absolute;
-	top:0.2;
+	top:0;
 	left:0;
 	bottom:0;
 	right:0;
@@ -242,10 +241,7 @@ div.content-left-1-rigth{
 	margin-left:300px;
 	height:134px;
 	border:2px double gray;
-	-webkit-box-shadow:0 0 15px gray;
-	-moz-box-shadow:0 0 15px gray;
-	-ms-box-shadow:0 0 15px gray;
-	-o-box-shadow:0 0 15px gray;
+	box-shadow:0 0 15px gray;
 	background:url(../img/photo0202-mm.jpg)  top center no-repeat;
 	background-size:cover;
 	
