@@ -26,7 +26,7 @@ body{
 
 div.container{
 	width:1350px;
-	height:1446px;
+	height:auto;
 	background:url(../img/new.jpg)  no-repeat;
 	background-repeat:no-repeat;
 	margin:auto;
@@ -91,159 +91,72 @@ div.menu li:hover a{
 }
 
 /*----------endmenu-----------*/
-
-@-webkit-keyframes slider {
-	0%{ left:0 }
-	10%{ left:0 }
-	20%{ left:-340px }
-	40%{ left:-340px }
-	50%{ left:-680px }
-	70%{ left:-680px }
-	80%{ left:-680px }
-	90%{ left:-1020px }
-	95%{ left:-1020px }
-	98%{left:-1040px }
-	100%{ left:0 }
-}
-
-
-div.main-pic{
-	width:333px;
-	height:250px;
-	margin-top:30px;
-	overflow:hidden;
-	float:left;
-	margin-left:38px;
-}
-
-div#pic-container{
-	width:1350px;
-	height:250px;
-	position:relative;
-	-webkit-animation:slider 15s infinite;
-}
-
-div.tarh1{
-	width:160px;
-	height:150px;
-	background-image:url(../img/66.png);
-	background-repeat:no-repeat;
-}
-
-div.left{
-	width:160px;
-	height:310px;
-	float:left;
-}
-
-div.tarh2{
-	width:150px;
-	height:150px;
-	background:url(../img/112.png) no-repeat;
-}
-
-div.right{
-	width:150px;
-	height:310px;
-	float:right;
-}
-
-
-div.kol-pic{
-	width:713px;
-	height:310px;
-	margin: auto;
-	margin-top: 40px;
-	/*border:1px solid #666;*/
-}
-
 /*---------------- content----------*/
+
 div.content{
 	width:702px;
-	height:810px;
+	height:720px;
 	margin:auto;
-	margin-top:13px;
+	margin-top:40px;
 	padding:14px;
 	position:relative;
-	border:1px dashed #a38734;
-	border-radius:15px;
-}
-
-@font-face
-{
-font-family:fontP;
-src:url(../font/BNazanin.ttf); 
 }
 
 div.titr{
-	width:140px;
-	height:12px;
-	padding:4px;
+	width:100px;
+	height:17px;
+	padding:3px;
 	background-color:beige;
 	border-radius:5px;
 	color:#6A7A80;
-	font-family:fontp;
-	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
 	text-align:center;
-	float:right;
-}
-div.titr1{
-	width:220px;
-	height:12px;
-	padding:4px;
-	background-color:beige;
-	border-radius:5px;
-	color:#6A7A80;
-	font-family:fontp;
-	font-size:12px;
-	text-align:center;
-	float:right;
+	font-weight:bold;
 }
 
-div.h{
-	width:660px;
-	height:150px;
-	margin:0 auto;
-	padding:15px;
-	float:right;
-}
-
-div.hh{
-	width:630px;
-	height:135px;
-	margin:0 auto;
-	padding:30px;px;
-	float:right;
-}
-
-div a img{
-	width:150px;
-	height:150px;
-	opacity:.7;
-	
+div.h1  a img{
+	width:180px;
+	height:180px;
 	margin:10px 0 10px 0;
 	-webkit-box-shadow: 0 4px 10px #999;
 	-moz-box-shadow: 0 4px 10px #999;
-	-webkit-transition: -webkit-transform .15s linear;
-	-webkit-transition: -webkit-transform 1s,opacity 1s;
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	opacity:0.7;
+	z-index:100;
+
+}
+
+div.h a img{
+	width:220px;
+	height:150px;
+	margin:10px 0 10px 0;
+	-webkit-box-shadow: 0 4px 10px #999;
+	-moz-box-shadow: 0 4px 10px #999;
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	opacity:0.7;
+	z-index:100;
 }
 
 div a img:hover{
-	width:200px;
-	height:200px;
-	margin:10px 0 10px 0;
-	-webkit-box-shadow: 0 4px 10px #999;
-	-moz-box-shadow: 0 4px 10px #999;
-	-webkit-transition: -webkit-transform .15s linear;
 	opacity:1;
+	-webkit-transform:scale(1.5,1.5);
+	-webkit-transform:all .75s linear;
+	-moz-transform:scale(1.5,1.5);
+	-moz-transform:all .75s linear;
+	z-index:100;
 }
 
 /*----------footer-----------*/
 div.head-footer{
 	width:732px;
-	height:30px;
+	height:20px;
 	margin:auto;	
 }
 
@@ -251,4 +164,34 @@ div.footer{
 	width:732px;
 	height:108px;
 	margin:auto;
+	font-size:10px;
+	text-align:center ;
+	font-family:Tahoma, Geneva, sans-serif;
+	direction:ltr;	
+	background-color:#e7d9b2;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+div.footer div.foot-in{
+	width:auto;
+	height:25px;	
+	font-size:11px;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	direction:ltr;
+	color:#61522b;
+	float:left;
+	margin-top:35px;
+	margin-left:235px;
+}
+
+div.footer img{
+	float:left;
+	margin-left:-97px;
+}
+
+div.foot-in a{
+	color:#61522b;
+	text-decoration:none;
 }
