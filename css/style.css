@@ -16,10 +16,12 @@ div.clear{
 	clear:both;	
 }
 
+body{
+	background:url(../img/main_bg.jpg) no-repeat top center;	
+}
+
 div.container{
-	width:1350px;
-	height:1446px;
-	background:url(../img/main_bg.jpg) no-repeat top center;
+	width:760px;
 	margin:0 auto;
 }
 

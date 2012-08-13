@@ -17,23 +17,16 @@ div.clear{
 }
 
 body{
-	position:absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
+	background:url(../img/new.jpg) no-repeat top center;	
 }
 
 div.container{
-	width:1350px;
-	height:1446px;
-	background-image:url(../img/new.jpg);
-	background-repeat:no-repeat;
-	margin:auto;
+	width:760px;
+	margin:0 auto;
 }
 
-
 /*----------menu-----------*/
+
 div.menu{
     width:500px;
     height:41px;
