@@ -91,6 +91,7 @@ div.content{
 	width:auto;
 	min-height:800px;
 	padding:22px;
+	margin-top:20px;
 }
 
 /*------------- content-pic -----------------*/
@@ -129,14 +130,14 @@ src:url(../font/IranNastaliq.ttf);
 
 div.content-info{
 	width:auto;
-	min-height:600px;	
+	min-height:600px;
 }
 
 /*------------------ Content-Left --------------------------------*/
 
 div.contact-left{
 	width:192px;
-	min-height:3730px;
+	min-height:3690px;
 	float:left;	
 	padding:8px;
 	border:1px dashed rgb(185,208,188);
@@ -264,7 +265,44 @@ div.content-date{
 
 /*----------footer-----------*/
 
+div.head-footer{
+	width:732px;
+	height:20px;
+	margin:auto;	
+}
+
 div.footer{
-	width:auto;
+width:732px;
 	height:108px;
+	margin:auto;
+	font-size:10px;
+	text-align:center ;
+	font-family:Tahoma, Geneva, sans-serif;
+	direction:ltr;	
+	background-color:#e7d9b2;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+div.footer div.foot-in{
+	width:auto;
+	height:25px;	
+	font-size:11px;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	direction:ltr;
+	color:#61522b;
+	float:left;
+	margin-top:35px;
+	margin-left:235px;
+}
+
+div.footer img{
+	float:left;
+	margin-left:-97px;
+}
+
+div.foot-in a{
+	color:#61522b;
+	text-decoration:none;
 }
