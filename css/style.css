@@ -89,7 +89,7 @@ div.main-pic{
 	width: 716px;
 	height: 318px;
 	margin: auto;
-	margin-top: 33px;
+	margin-top: 38px;
 }
 
 div.con-up{
@@ -136,7 +136,14 @@ div.txt-g1{
 	height:20px;
 	margin:0 auto;
 	margin-top:12px;
-	background-color:#9CC;
+}
+
+div.txt-g1 a , div.txt-g2 a , div.txt-g3 a{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#277b79;
+	text-shadow:1px 1px 1px #FFF;
 }
 div.txt-g2{
 	width:99px;
@@ -147,7 +154,6 @@ div.txt-g2{
 	top:140px;
 	right:0;
 	left:0;
-	background-color:#9CC;
 }
 
 div.txt-g3{
@@ -155,7 +161,6 @@ div.txt-g3{
 	height:20px;
 	margin:0 auto;
 	margin-top:12px;
-	background-color:#9CC;
 }
 
 div.con-up-right{
