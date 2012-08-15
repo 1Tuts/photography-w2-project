@@ -392,21 +392,12 @@ div.content-right-1 h4{
 /*-------------- content-right-2 (Link-pic) -----------------*/
 
 div.content-right-2{
-	width:240px;
-	height:65px;
+	width:190px;
+	height:30px;
 	margin:auto;
 	margin-top:15px;
-	border:2px solid rgb(202,219,204);	
-}
-
-div.content-right-2 p{
-	font-family:myFontlink;	
-}
-
-@font-face
-{
-font-family:myFontlink;
-src:url(../font/Far_NazaninBd.ttf); 
+	border:1px solid rgb(202,219,204);
+	padding:15px 25px;	
 }
 
 div.content-right-2 a:hover{
