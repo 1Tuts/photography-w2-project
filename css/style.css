@@ -27,7 +27,7 @@ div.container{
 
 /*----------menu-----------*/
 div.menu{
-    width:500px;
+    width:510px;
     height:41px;
     margin:auto;
 	padding-top:15px;
@@ -52,31 +52,27 @@ div.menu ul li a{
     padding:2px 7px;
     text-decoration:none;
     color:#555;
-    font-family:myFont;
+    font-family:'B Homa',BHoma,tahoma;
     overflow:hidden;
-    font-size:28px;
+    font-size:14px;
     height:52px;
-}
-@font-face
-{
-font-family:myFont;
-src:url(../font/IranNastaliq.ttf); 
-}
+	font-weight:bold;	
+	}
 
 #home{
-    width:70px;    
+    width:92px;    
     }
 #gallery{
-    width:50px; 
+    width:45px; 
     }
 #news{
-    width:60px; 
+    width:55px; 
     }
 #about{
-    width:60px;    
+    width:65px;    
     }
 #contact{
-    width:60px;    
+    width:80px;    
     }
 div.menu li:hover a{
     color:#800000;
@@ -92,6 +88,8 @@ div.main-pic{
 	margin-top: 38px;
 }
 
+/*----------content-up------------*/
+
 div.con-up{
 	width:712px;
 	height:185px;
@@ -104,7 +102,7 @@ div.con-up-left{
 	width:225px;
 	height:183px;
 	float:left;
-	background-image:url(../2.jpg);
+	background-image:url(../img/2.jpg);
 }
 
 div.left-into{
@@ -114,13 +112,15 @@ div.left-into{
 	margin-top:12px;
 	position:relative;
 }
+
 div.left-into:hover{
 	opacity:0.8;	
-}	
+}
+	
 div.name{
 	width:100px;
 	height:20px;	
-	background-color:#C09FEC;
+	background-color:#000;
 	border:1px solid black;
 	opacity:0.6;
 	position:absolute;
@@ -128,7 +128,8 @@ div.name{
 	left:0;
 	bottom:0;
 	right:0;
-	margin:auto;	
+	margin-top:108px;
+	color:#FF0080;	
 	}
 	
 div.txt-g1{
@@ -167,7 +168,7 @@ div.con-up-right{
 	width:225px;
 	height:183px;
 	float:right;
-	background-image:url(../2.jpg);
+	background-image:url(../img/2.jpg);
 }
 
 div.right-into{
@@ -183,7 +184,7 @@ div.con-up-middle{
 	width:225px;
 	height:171px;
 	margin:auto;
-	background-image:url(../2.jpg);
+	background-image:url(../img/2.jpg);
 	position:relative;
 	padding-top:12px;
 }
@@ -249,7 +250,7 @@ div.content-left-1-rigth{
 	height:134px;
 	border:2px double gray;
 	box-shadow:0 0 15px gray;
-	background:url(../img/photo0202-mm.jpg)  top center no-repeat;
+	background:url(../img/home/photo0202-mm.jpg)  top center no-repeat;
 	background-size:cover;
 	
 }
