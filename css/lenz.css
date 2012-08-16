@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* ----------CSS content-contact ---------*/
+/* ----------CSS content-lenz ---------*/
 
 div.slider-cantact {
 	width:auto;
@@ -88,7 +88,7 @@ div.slider-can-rigth div {
 	padding:0;
 }
 div.slider-can-rigth div:first-child {
-	background:url(../img/contact/contact-ue.jpg) left 100px no-repeat;
+	background:;
 }
 div.slider-can-rigth div p {
 	width:auto;
@@ -120,7 +120,7 @@ div.left_ask {
 }
 div.slider-can-rigth div:last-child {
 	position:relative;
-	background:url(../img/contact/email.jpg) left 100px no-repeat;
+	background:;
 }
 form.frm-contact-us {
 	width:200px;
@@ -162,3 +162,32 @@ form.frm-contact-us input[type="submit"] {
 	color:#FFFFFF;
 	-webkit-border-radius:5px;
 }
+/*-----------------start deferent-camera---------------*/
+*{
+	font-family:'B Homa',BHoma,tahoma;
+	color:#666;
+}
+div.header-deferent-camera{
+	width:auto;
+	height:20px;
+	outline:1px solid #999;
+}
+div.text-deferent-camera{
+	width:auto;
+	height:90px;
+		outline:1px solid #999;
+
+}
+div.text-deferent-camera-left{
+	width:520px;
+	height:70px;
+	outline:1px solid #999;
+	float:left;
+	padding:10px;
+}
+div.text-deferent-camera-rigth{
+margin-left:540px;
+height:90px;
+outline:1px solid #999;
+}
+div.one-camera img{}

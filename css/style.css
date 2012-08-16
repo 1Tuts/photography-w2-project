@@ -238,7 +238,7 @@ div.txt-g2{
 }
 
 div.slideshow .train2{
-	width    : 1100px; /* 5*200 + x */
+	width    : 1100px; 
 	position : relative;
 	-webkit-transition : left 916ms;
 }
