@@ -6,9 +6,6 @@
 	margin:0;
 }
 
-/*div{
-	outline:1px solid #666;
-}*/
 
 div.clear{
 	width:0;
@@ -92,6 +89,7 @@ div.main-pic{
 	margin-top:40px;
 	overflow:hidden;
 }
+
 div.base{
 	width:3500px;	
 	height:318px;
@@ -128,15 +126,24 @@ div.content{
 	margin-top:25px;
 	padding:15px;
 	position:relative;
+	box-shadow:2px 2px 15px #FF00FF;
+	border:1px solid #FF0080;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
 }
+
 div.content h2{
 	text-align:center;
 	line-height:28px;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-weight:bold;
 	color:#2A2A2A;
-	text-shadow:3px 3px #999999;	
+	text-shadow:1px 1px #999999;	
 	}
+	
 div.content p{
 	text-align:right;
 	line-height:24px;
