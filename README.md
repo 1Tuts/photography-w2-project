@@ -1,6 +1,5 @@
 ##Photogeraphy Art Website
 =========
-It's about :
 * Introduction to Art History and the first photographic cameras.
 * Understanding of photographic techniques and equipment.
 * Recognition of famous photographers and the best photos. 
@@ -17,8 +16,8 @@ It's about :
 
 ###Buliding Technologies
 
-*[HTML5](http://ali.md/wiki/html5)
-*[CSS3](http://ali.md/css3ref)
+* [HTML5](http://ali.md/wiki/html5)
+* [CSS3](http://ali.md/css3ref)
 
 ###The Team
 
@@ -30,5 +29,5 @@ It's about :
 
 ###All rights reserved
 
-The [www.photo-graphic.ir] code and website is released under a MIT License.
-Produced by CIW student ( Summer 2012)
+* The www.photo-graphic.ir code and website is released under a MIT License.
+* Produced by CIW student ( Summer 2012)
