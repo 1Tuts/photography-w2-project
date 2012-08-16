@@ -1,9 +1,11 @@
-##test-repo
+##project
 =========
 
 photogeraphy art website
  
+The design selected for this site :www.darasgarden.com
 
+Address domain project :www.photo-graphic.ir
 
 ###Contributing
 
@@ -20,10 +22,15 @@ photogeraphy art website
 
 * The method of composition in photography
 
+Buliding Technologies:
+
+HTML5
+CSS3
 
 
 ###The Team
-* [Ameneh Rezagholizadeh](http://github.com/parasto)
+* [ali abdolahi](http://github.com/aliab)/Supervisor
+* [Ameneh Rezagholizadeh](http://github.com/parasto)/manager
 * [Farzaneh Gafari](https://github.com/Asal-GHafari)
 * [Aileen Navazi](https://github.com/aileen-n)
 * [Fatemeh Yahyaee](https://github.com/yahyaee)
