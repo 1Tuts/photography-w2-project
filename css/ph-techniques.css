@@ -126,6 +126,26 @@ div.content{
 	padding:15px;
 	position:relative;
 }
+
+div.content p{	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#000033;
+	line-height:20px;
+	text-align:justify;
+}
+
+.tec-img{
+	float:left;
+	border:1px solid #CCC;
+	margin-right:5px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	}
+
 /*--------------div.content-1-------------*/
 
 div.content-1{
@@ -141,28 +161,8 @@ div.content-1{
 	-ms-border-radius:10px;
 	}
 	
-#zed{
-	width:160px;
-	height:120px;
-	float:left;
-	margin-top:0;
-	border:1px solid #CCC;
-	border-radius:10px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	-o-border-radius:10px;
-	-ms-border-radius:10px;
-	}
-	
-div.content-1 p{
-	text-align:right;	
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
-	color:#000033;
-	line-height:16px;
-	text-align:justify;
-	}
-	
+
+
 div.content-1 a{
 	text-decoration:none;
 	color:#FF0080;
@@ -170,11 +170,11 @@ div.content-1 a{
 	font-family:Tahoma, Geneva, sans-serif;	
 	}
 	
+/*------------------div.content-2----------*/
 	
-/*------------------div.content-2----------*/	
 div.content-2{
 	width:323px;
-	height:282px;
+	height:300px;
 	margin-top:10px;
 	float:left;
 	padding:5px 5px;
@@ -187,27 +187,6 @@ div.content-2{
 	-ms-border-radius:10px;	
 	}
 	
-#hdr{
-	width:200px;
-	height:144px;	
-	float:left;
-	margin-top:0;
-	border:1px solid #CCC;
-	border-radius:10px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	-o-border-radius:10px;
-	-ms-border-radius:10px;	
-	}
-
-div.content-2 p{
-	text-align:right;	
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
-	color:#000033;
-	line-height:20px;
-	}
-		
 div.content-2 a{
 	text-decoration:none;
 	color:#FF0080;
@@ -218,8 +197,8 @@ div.content-2 a{
 /*---------------content-3------------*/
 
 div.content-3{
-	width:350px;
-	height:304px;
+	width:345px;
+	height:300px;
 	margin-top:10px;
 	margin-left:346px;
 	box-shadow:2px 2px 15px #999999;
@@ -232,27 +211,6 @@ div.content-3{
 	-ms-border-radius:10px;		
 	}
 	
-#ping{
-	width:200px;
-	height:133px;
-	float:left;
-	margin-top:0;
-	border:1px solid #CCC;
-	border-radius:10px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	-o-border-radius:10px;
-	-ms-border-radius:10px;		
-	}
-	
-div.content-3 p{
-	text-align:right;	
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
-	color:#000033;
-	line-height:20px;
-	}	
-	
 div.content-3 a{
 	text-decoration:none;
 	color:#FF0080;
@@ -261,7 +219,7 @@ div.content-3 a{
 	}
 /*------------ content-4---------------*/
 div.content-4{
-	width:328px;
+	width:323px;
 	height:282px;
 	margin-top:10px;
 	float:left;	
@@ -275,28 +233,6 @@ div.content-4{
 	-ms-border-radius:10px;			
 	}
 	
-#mad{
-	width:200px;
-	height:150px;
-	float:left;
-	margin-top:0;
-	border:1px solid #CCC;	
-	border-radius:10px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	-o-border-radius:10px;
-	-ms-border-radius:10px;		
-	}
-	
-
-div.content-4 p{
-	text-align:right;	
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
-	color:#000033;
-	line-height:20px;
-	}	
-	
 div.content-4 a{
 	text-decoration:none;
 	color:#FF0080;
@@ -307,7 +243,7 @@ div.content-4 a{
 /*------------content-5----------*/
 
 div.content-5{
-	width:338px;
+	width:345px;
 	height:282px;
 	margin-top:10px;
 	margin-left:346px;
@@ -321,28 +257,6 @@ div.content-5{
 	-ms-border-radius:10px;	
 	}
 	
-#nama{
-	width:200px;
-	height:150px;
-	float:left;
-	margin-top:0;
-	border:1px solid #CCC;
-	border-radius:10px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	-o-border-radius:10px;
-	-ms-border-radius:10px;				
-	}
-	
-
-div.content-5 p{
-	text-align:right;	
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
-	color:#000033;
-	line-height:20px;
-	}	
-	
 div.content-5 a{
 	text-decoration:none;
 	color:#FF0080;
@@ -350,6 +264,7 @@ div.content-5 a{
 	font-family:Tahoma, Geneva, sans-serif;			
 	}
 /*----------footer-----------*/
+
 div.head-footer{
 	width:732px;
 	height:20px;

@@ -166,7 +166,7 @@ div.txt-g{
 
 /*--------- moshtarak --------------*/
 
-div.txt-g a , div.txt-g2 a {
+div.txt-g p , div.txt-g2 p {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	text-decoration:none;
@@ -479,12 +479,6 @@ div.content-right-3{
 	margin-top:30px;	
 }
 /*-------------footer-------------*/
-
-div.head-footer{
-	width:732px;
-	height:20px;
-	margin:auto;	
-}
 
 div.footer{
 	width:732px;
