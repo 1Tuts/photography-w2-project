@@ -117,21 +117,6 @@ div.left-into:hover{
 	opacity:0.8;	
 }
 	
-div.name{
-	width:100px;
-	height:20px;	
-	background-color:#000;
-	border:1px solid black;
-	opacity:0.6;
-	position:absolute;
-	top:0;
-	left:0;
-	bottom:0;
-	right:0;
-	margin-top:108px;
-	color:#FF0080;	
-	}
-	
 div.txt-g1{
 	width:190px;
 	height:20px;
