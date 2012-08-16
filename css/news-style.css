@@ -82,9 +82,6 @@ div.menu li:hover a{
     color:#800000;
 }
 
-/*----------endmenu-----------*/
-
-
 /*---------------- content----------*/
 
 div.content{
@@ -99,7 +96,7 @@ div.content{
 div.content-pic{
 	width:auto;
 	min-height:200px;
-	background-image:url(../img/Photography1.jpg);
+	background-image:url(../img/news-img/Photography1.jpg);
 	background-repeat:no-repeat;
 	background-size:717px 200px;
 	padding-bottom:15px;	
@@ -126,7 +123,7 @@ font-family:myFont;
 src:url(../font/IranNastaliq.ttf); 
 }
 
-/*-------------------------------- content-info -------------------------------------------------*/
+/*-------------------------------- content-info ------------------------------------------*/
 
 div.content-info{
 	width:auto;
@@ -237,7 +234,7 @@ div.contact-right a{
 }
 
 div.contact-right p{
-	text-align:right;
+	text-align:justify;
 	font-size:12px;
 	font-family:fontP;
 	line-height:17px;	
@@ -261,7 +258,11 @@ div.content-date{
 	text-align:center;	
 }
 
-
+div.contact-right .align{
+	float:left;	
+	margin-right:12px;
+	margin-bottom:5px;
+}
 
 /*----------footer-----------*/
 
@@ -272,7 +273,7 @@ div.head-footer{
 }
 
 div.footer{
-width:732px;
+	width:732px;
 	height:108px;
 	margin:auto;
 	font-size:10px;
