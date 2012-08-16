@@ -21,7 +21,7 @@
 
 ###The Team
 
-* [ali abdolahi](http://github.com/aliab) / Teacher & Technical Manager
+* [Ali Abdolahi](http://github.com/aliab) / Teacher & Technical Manager
 * [Ameneh Rezagholizadeh](http://github.com/parasto) / Project Manager / Developer
 * [Farzaneh Gafari](https://github.com/Asal-GHafari) / Designer / Developer
 * [Aileen Navazi](https://github.com/aileen-n)  / Designer / Developer / Data Gather
