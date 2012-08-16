@@ -330,7 +330,7 @@ div.content-5{
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	-o-border-radius:10px;
-	-ms-border-radius:10px;			
+	-ms-border-radius:10px;				
 	}
 	
 
@@ -344,9 +344,9 @@ div.content-5 p{
 	
 div.content-5 a{
 	text-decoration:none;
-	color:#B065E2;
+	color:#FF0080;
 	font-size:16px;
-	font-family:Tahoma, Geneva, sans-serif;		
+	font-family:Tahoma, Geneva, sans-serif;			
 	}
 /*----------footer-----------*/
 div.head-footer{
