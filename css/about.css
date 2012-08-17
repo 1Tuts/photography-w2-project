@@ -7,6 +7,8 @@
 	margin:0;
 }
 
+div{outline:1px solid rgb(0,0,255)}
+
 div.clear{
 	width:0;
 	height:0;
@@ -86,11 +88,12 @@ div.main-pic{
 	width: 716px;
 	height: 318px;
 	margin: auto;
-	margin-top: 33px;
+	margin-top: 40px;
 }
 
 
 /*---------------- content----------*/
+
 div.content{
 	width:702px;
 	height:926px;
@@ -100,126 +103,52 @@ div.content{
 	position:relative;
 }
 
-
 div.matn{
 	width:682px;
 	height:80px;
 	padding:10px;	
-	}
-div.matn p{
-	text-align:right;
-	line-height:20px;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;	
-	}
-p.matn2{
-	text-align:right;
-	line-height:26px;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;
-	color:#494949;
-	text-align:justify;
-	}
+}
 	
-div.Photo-Group{
-	width:686px;
-	height:384px;
-	padding:8px;
-	}
+p.matn2{
+	line-height:26px;
+	margin:20px 0;
+}
+
 div.img-group{
 	width:680px;
 	height:250px;
 	border:3px solid #999;
-	}
+}
 
-div.photo{
+div.4photo{
 	width:699px;
 	height:303px;
 	padding:0 1px;
-	}	
-div.photo1{
+}	
+
+div.photos-contact{
 	width:175px;
 	height:302px;
 	float:left;
-	
-	}
+}
 
-div.fatemeh{
+div.names-contact{
 	width:144px;
 	height:150px;
 	margin:0 auto;	
-	}
-div.p1{
+}
+
+div.contact-text{
 	margin:10px;
 	text-align:right;
 	font-size:14px;
 	font-family:Tahoma, Geneva, sans-serif;
 	line-height:16px;
 	color:#494949;
-	}
-
-div.photo2{
-	width:175px;
-	height:302px;
-	float:left;	
-	}
-
-div.aileen{
-	width:144px;
-	height:150px;
-	margin:0 auto;	
-	}
-	
-div.p2{
-	margin:10px;
-	text-align:right;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;
-	line-height:16px;
-	color:#494949;
-	}
-	
-div.photo3{
-	width:175px;
-	height:302px;
-	float:left;	
-	}
-
-div.farzaneh{
-	width:144px;
-	height:150px;
-	margin:0 auto;	
-	}
-div.p3{
-	margin:10px;
-	text-align:right;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;
-	line-height:16px;
-	color:#494949;
-	}
-
-div.photo4{
-	width:175px;
-	height:302px;
-	margin-left:525px;	
-	}
-div.ameneh{
-	width:144px;
-	height:150px;
-	margin:0 auto;	
-	}
-div.p4{
-	margin:10px;
-	text-align:right;
-	font-size:14px;
-	font-family:Tahoma, Geneva, sans-serif;
-	line-height:16px;
-	color:#494949;
-	}
-				
+}
 
 /*----------footer-----------*/
+
 div.head-footer{
 	width:702px;
 	height:20px;
