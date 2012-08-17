@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding:0;
+	margin:0;
+}
+
+div.clear{
+	width:0;
+	height:0;
+	clear:both;	
+}
+
+body{
+	background:url(../img/new.jpg) no-repeat top center;	
+}
+
+div.container{
+	width:760px;
+	margin:0 auto;
+}
+
+/*----------menu-----------*/
+
+div.menu{
+    width:500px;
+    height:41px;
+    margin:auto;
+	padding-top:15px;
+}
+
+div.menu > ul{
+    list-style:none;
+    width:auto;
+    margin:0 auto;
+}
+
+div.menu ul li{
+    float:right;
+    height:56px;
+    text-indent:10px;
+    padding-right:20px;
+    font-family:myFont;
+}
+
+div.menu ul li a{
+    display:block;
+    padding:2px 7px;
+    text-decoration:none;
+    color:#555;
+    font-family:myFont;
+    overflow:hidden;
+    font-size:28px;
+    height:52px;
+}
+@font-face
+{
+font-family:myFont;
+src:url(../font/IranNastaliq.ttf); 
+}
+
+#home{
+    width:70px;    
+    }
+#gallery{
+    width:50px; 
+    }
+#news{
+    width:60px; 
+    }
+#about{
+    width:60px;    
+    }
+#contact{
+    width:60px;    
+    }
+div.menu li:hover a{
+    color:#800000;
+}
+
+/*----------footer-----------*/
+
+div.footer{
+	width:732px;
+	height:108px;
+	margin:auto;
+	font-size:10px;
+	text-align:center ;
+	font-family:Tahoma, Geneva, sans-serif;
+	direction:ltr;	
+	background-color:#e7d9b2;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+div.footer div.foot-in{
+	width:auto;
+	height:25px;	
+	font-size:11px;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	direction:ltr;
+	color:#61522b;
+	float:left;
+	margin-top:35px;
+	margin-left:235px;
+}
+
+div.footer img{
+	float:left;
+	margin-left:-97px;
+}
+
+div.foot-in a{
+	color:#61522b;
+	text-decoration:none;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/*--------------------------------------- About-Us --------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+div.abouus-main-pic{
+	width: 716px;
+	height: 318px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+
+/*---------------- content----------*/
+
+div.aboutus-content{
+	width:702px;
+	height:926px;
+	margin:auto;
+	margin-top:20px;
+	padding:15px;
+	position:relative;
+}
+
+div.matn{
+	width:682px;
+	height:80px;
+	padding:10px;	
+}
+	
+p.matn2{
+	line-height:26px;
+	margin:20px 0;
+}
+
+div.img-group{
+	width:680px;
+	height:250px;
+	border:3px solid #999;
+}
+
+div.4photo{
+	width:699px;
+	height:303px;
+	padding:0 1px;
+}	
+
+div.photos-contact{
+	width:175px;
+	height:302px;
+	float:left;
+}
+
+div.names-contact{
+	width:144px;
+	height:150px;
+	margin:0 auto;	
+}
+
+div.contact-text{
+	margin:20px 10px;
+	text-align:right;
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	line-height:16px;
+	color:#494949;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/*--------------------------------------- Zedenor --------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+div.teckniq-main-pic{
+	width:690px;
+	height:318px;
+	margin:auto;
+	margin-top:40px;
+	overflow:hidden;
+}
+
+div.base{
+	width:3500px;	
+	height:318px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	-webkit-animation:slider 15s infinite;
+	-moz-animation:slider 15s infinite;
+	-ms-animation:slider 15s infinite;
+	-o-animation:slider 15s infinite;
+	}
+
+@-webkit-keyframes slider {
+	0%{ left:0 }
+	10%{ left:0 }
+	20%{ left:-710px }
+	30%{ left:-710px }
+	40%{ left:-1410px }
+	50%{ left:-1410px }
+	60%{ left:-2100px}
+	70%{ left:-2100px }
+	80%{ left:-2800px }
+	90%{ left:-2800px }
+	95%{ left:-3500px  }
+	98%{left:-3500px }
+	100%{ left:0 }
+}
+
+/*---------------- teckniq-content----------*/
+
+div.teckniq-content-scroll{
+	overflow:scroll;	
+}
+
+
+div.teckniq-content , div.teckniq-content-scroll{
+	width:702px;
+	min-height:410px;
+	margin:auto;
+	margin-top:25px;
+	margin-bottom:20px;
+	padding:15px;
+	position:relative;
+	box-shadow:2px 2px 15px #FF00FF;
+	border:1px solid #FF0080;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+}
+
+div.teckniq-content h2 , div.teckniq-content h3 , div.teckniq-content-scroll h2 ,div.teckniq-content-scroll h3{
+	text-align:right;
+	margin-bottom:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	color:#2A2A2A;
+	text-shadow:2px 2px 2px #CCC;
+}
+	
+div.teckniq-content p , div.teckniq-content-scroll{
+	text-align:right;
+	line-height:19px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#2A2A2A;
+	text-align:justify;
+			
+}
+	
