@@ -26,58 +26,44 @@ div.container{
 }
 
 /*----------menu-----------*/
-div.menu{
-    width:510px;
-    height:41px;
-    margin:auto;
-	padding-top:15px;
+
+div.show{
+	width:716px;
+	overflow:hidden;
 }
 
-div.menu > ul{
-    list-style:none;
-    width:auto;
-    margin:0 auto;
+div.train{
+	width:3000px;
 }
 
-div.menu ul li{
-    float:right;
-    height:56px;
-    text-indent:10px;
-    padding-right:20px;
-    font-family:myFont;
+div.train > div{
+	width:143px;
+	float:left;
+	overflow:hidden;	
+	-webkit-transition:all .5s;
 }
 
-div.menu ul li a{
-    display:block;
-    padding:2px 7px;
-    text-decoration:none;
-    color:#555;
-    font-family:'B Homa',BHoma,tahoma;
-    overflow:hidden;
-    font-size:14px;
-    height:52px;
-	font-weight:bold;	
-	}
-
-#home{
-    width:92px;    
-    }
-#gallery{
-    width:45px; 
-    }
-#news{
-    width:55px; 
-    }
-#about{
-    width:65px;    
-    }
-#contact{
-    width:80px;    
-    }
-div.menu li:hover a{
-    color:#800000;
+div.show:hover .train > div{
+	width:60px;	
 }
 
+div.show .train > div:hover{
+	width:530px;
+}
+
+div.train div a span{
+	width:100px;
+	height:40px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	text-align:center;
+	color:#666;
+	font-weight:bold;
+}
+
+div.train div a{
+	text-decoration:none;	
+}
 /*----------endmenu-----------*/
 
 
@@ -85,7 +71,7 @@ div.main-pic{
 	width: 716px;
 	height: 318px;
 	margin: auto;
-	margin-top: 38px;
+	margin-top: 93px;
 }
 
 /*----------content-up------------*/
