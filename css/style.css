@@ -324,8 +324,21 @@ div.content-left-2{
 	margin-top:15px;
 	padding:10px;
 	border:1px dotted rgb(202,219,204);
+	position:relative;
 }
 
+div.pic-hover{
+width: 450px;
+height: 125px;
+background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(120px 130px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
+position: relative;
+bottom: 110px;
+left:-10px;
+opacity:0.3;
+}
+div.pic-hover:hover{
+background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(510px 160px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
+}
 div.pic{
 	float:left;
 	width:135px;

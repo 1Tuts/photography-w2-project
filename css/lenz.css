@@ -1,6 +1,63 @@
 @charset "utf-8";
 /* ----------CSS content-lenz ---------*/
+body{
+	background:url(../img/new.jpg) no-repeat top center;	
+}
+div.menu{
+    width:500px;
+    height:41px;
+    margin:auto;
+	padding-top:15px;
+}
 
+div.menu > ul{
+    list-style:none;
+    width:auto;
+    margin:0 auto;
+}
+
+div.menu ul li{
+    float:right;
+    height:56px;
+    text-indent:10px;
+    padding-right:20px;
+    font-family:myFont;
+}
+
+div.menu ul li a{
+    display:block;
+    padding:2px 7px;
+    text-decoration:none;
+    color:#555;
+    font-family:myFont;
+    overflow:hidden;
+    font-size:28px;
+    height:52px;
+}
+@font-face
+{
+font-family:myFont;
+src:url(../font/IranNastaliq.ttf); 
+}
+
+#home{
+    width:70px;    
+    }
+#gallery{
+    width:50px; 
+    }
+#news{
+    width:60px; 
+    }
+#about{
+    width:60px;    
+    }
+#contact{
+    width:60px;    
+    }
+div.menu li:hover a{
+    color:#800000;
+}
 div.slider-cantact {
 	width:auto;
 	height:300px;
@@ -34,6 +91,12 @@ div {
 	95%{left:-2115px  }
 	98%{left:-2115px  }
 	100%{ left:0 }
+}
+div.main-pic{
+	width: 720px;
+	height: 318px;
+	margin: auto;
+	margin-top: 33px;
 }
 div.slider-lenz{
 	width:700px;
@@ -286,10 +349,15 @@ div.text-deferent-camera-rigth img {
 	top:-10px;
 }
 div.bg-color {
+	width:auto;
+	height:870px;
 	background:#E7D9B2  -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0)60%, transparent 90%);
 	background:#E7D9B2 -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0)60%, transparent 90%);
 background:#E7D9B2 -ms-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0)60%, transparent 90%) background:#E7D9B2 -moz-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0)60%, transparent 90%);
 -webkit-border-bottom-left-radius:700px;
+-ms-border-bottom-left-radius:700px;
+-moz-border-bottom-left-radius:700px;
+-o-border-bottom-left-radius:700px;
 }
 a.position{
 	position:relative;

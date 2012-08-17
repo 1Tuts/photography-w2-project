@@ -1,5 +1,62 @@
 @charset "utf-8";
 /* ----------CSS content-contact ---------*/
+body{
+	background:url(../img/new.jpg) no-repeat top center;	
+}div.menu{
+    width:500px;
+    height:41px;
+    margin:auto;
+	padding-top:15px;
+}
+
+div.menu > ul{
+    list-style:none;
+    width:auto;
+    margin:0 auto;
+}
+
+div.menu ul li{
+    float:right;
+    height:56px;
+    text-indent:10px;
+    padding-right:20px;
+    font-family:myFont;
+}
+
+div.menu ul li a{
+    display:block;
+    padding:2px 7px;
+    text-decoration:none;
+    color:#555;
+    font-family:myFont;
+    overflow:hidden;
+    font-size:28px;
+    height:52px;
+}
+@font-face
+{
+font-family:myFont;
+src:url(../font/IranNastaliq.ttf); 
+}
+
+#home{
+    width:70px;    
+    }
+#gallery{
+    width:50px; 
+    }
+#news{
+    width:60px; 
+    }
+#about{
+    width:60px;    
+    }
+#contact{
+    width:60px;    
+    }
+div.menu li:hover a{
+    color:#800000;
+}
 
 div.slider-cantact {
 	width:auto;
@@ -8,6 +65,12 @@ div.slider-cantact {
 }
 div {
 	outline:0px solid #000;
+}
+div.main-pic{
+	width: 720px;
+	height: 318px;
+	margin: auto;
+	margin-top: 38px;
 }
 /*----------------------------content-header-contact---------------------------*/
 div.header-contact {
