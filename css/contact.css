@@ -9,35 +9,35 @@ div.slider-cantact {
 div {
 	outline:0px solid #000;
 }
-div.header-contact{
+/*----------------------------content-header-contact---------------------------*/
+div.header-contact {
 	width:auto;
 	height:200px;
 }
-div.header-contact-left{
+div.header-contact-left {
 	width:400px;
 	height:200px;
 	float:left;
 }
-div.header-contact-rigth{
-margin-left:400px;
-height:200px;
 
+div.header-contact-rigth {
+	margin-left:400px;
+	height:200px;
 }
+/*----------------------------content-slider-contact---------------------------*/
 div.slider-can {
 	width:auto;
 	height:305px;
-	margin-top:50px;
+	margin-top:33px;
 }
-
-div.header-contact-left > h1 span{
-	font-family:'B Homa',BHoma,tahoma;
+/*----------------------------content-div-left-contact---------------------------*/
+div.header-contact-left > h1 span {
+	font-family:'B Homa', BHoma, tahoma;
 	font-size:36px;
 	color:#000;
 	position:relative;
 	top:50px;
-
 }
-
 div.can-left {
 	float:left;
 	width:180px;
@@ -62,7 +62,7 @@ div.can-left li:hover {
 }
 div.can-left li a {
 	color:#666666;
-	font-family:'B Homa',BHoma,tahoma;
+	font-family:'B Homa', BHoma, tahoma;
 	text-decoration:none;
 	font-size:14px;
 	line-height:20px;
@@ -71,6 +71,7 @@ div.can-left li a:hover {
 	color:#CCCCCC;
 	text-indent:50px;
 }
+/*----------------------------content-div-rigth-contact---------------------------*/
 div.can-rigth {
 	margin-left:180px;
 	height:305px;
@@ -79,7 +80,6 @@ div.can-rigth {
 }
 div.slider-can-rigth {
 	height:610px;
-	
 }
 div.slider-can-rigth div {
 	width:500px;
@@ -162,3 +162,4 @@ form.frm-contact-us input[type="submit"] {
 	color:#FFFFFF;
 	-webkit-border-radius:5px;
 }
+/*----------------------------End-content-div-rigth-contact---------------------------*/
