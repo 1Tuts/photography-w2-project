@@ -186,8 +186,10 @@ div.contact-text{
 }
 
 /*---------------------------------------------------------------------------------------------*/
-/*--------------------------------------- Zedenor --------------------------------------------*/
+/*------------------------------ Madon --- Zedenor --- Panorma --------------------------------*/
+/*---------------------------------- Pening ------ HDR ----------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
+/*-------Photography Techniques (just main-pic) ---------*/
 
 div.teckniq-main-pic{
 	width:690px;
@@ -268,3 +270,426 @@ div.teckniq-content p , div.teckniq-content-scroll{
 			
 }
 	
+/*---------------------------------------------------------------------------------------------*/
+/*--------------------------------------- Photography Techniques ------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------- content----------*/
+div.content-teck-base{
+	width:702px;
+	height:810px;
+	margin:auto;
+	margin-top:25px;
+	padding:15px;
+	position:relative;
+}
+
+div.content-teck-base p{	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#000033;
+	line-height:20px;
+	text-align:justify;
+}
+
+.tec-img{
+	float:left;
+	border:1px solid #CCC;
+	margin-right:5px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	}
+
+/*--------------content-up-teckniq-------------*/
+
+div.content-up-teckniq{
+	width:692px;
+	height:152px;
+	padding:5px 5px;
+	box-shadow:2px 2px 15px #999999;
+	border:1px solid #999;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	}
+	
+div.content-up-teckniq a{
+	text-decoration:none;
+	color:#FF0080;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;	
+	}
+	
+/*------------------ content left & right ---------------*/
+	
+div.content-left-teckniq , div.content-right-teckniq {
+	width:334px;
+	height:300px;
+	margin-top:10px;
+	padding:5px 5px;
+	box-shadow:2px 2px 15px #999999;
+	border:1px solid #999;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;	
+}
+
+div.content-left-teckniq{
+	float:left;
+}
+	
+div.content-right-teckniq{
+	margin-left:355px;
+}
+	
+div.content-left-teckniq a , div.content-right-teckniq a{
+	text-decoration:none;
+	color:#FF0080;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;	
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/*--------------------------------------- News-------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------- content----------*/
+
+div.content-news{
+	width:auto;
+	min-height:800px;
+	padding:22px;
+	margin-top:20px;
+}
+
+/*------------- content-pic -----------------*/
+
+div.content-pic-news{
+	width:auto;
+	min-height:200px;
+	background-image:url(../img/news-img/Photography1.jpg);
+	background-repeat:no-repeat;
+	background-size:717px 200px;
+	padding-bottom:15px;	
+}
+
+div.text-news{
+	background-color:rgb(244,254,205);
+	opacity:0.7;
+	width:160px;
+	height:40px;
+	color:black;
+	float:left;
+	margin-top:130px;
+}
+
+div.text-news p{
+	font-family:myFont;	
+	font-size:30px;	
+}
+
+@font-face
+{
+font-family:myFont;
+src:url(../font/IranNastaliq.ttf); 
+}
+
+/*---------------------- content-info --------------------------------*/
+
+div.content-info-news{
+	width:auto;
+	min-height:600px;
+}
+
+/*------------------ Content-Left ---------------------*/
+
+div.contact-left-news{
+	width:192px;
+	min-height:3690px;
+	float:left;	
+	padding:8px;
+	border:1px dashed rgb(185,208,188);
+	border-radius:15px;
+}
+
+/*------------ email-news ------------ */
+
+p.email-news{
+	margin-top:15px;
+	font-size:12px;
+	margin-bottom:13px;
+	font-family:'ColaborateBoldRegular', Arial, Helvetica, sans-serif;
+}
+	
+input.input{
+	padding:3px;
+	border:1px solid #bbbdbf;
+	border-radius:2px;
+	background-color:#e3e1dd;
+	color:#999;
+	font-family:'ColaborateBoldRegular', Arial, Helvetica, sans-serif;
+}
+	
+input.input:hover{
+	background-color:#E9E9E9;
+}
+
+input.ok{
+	padding:3px;
+	color:#73716f;
+	background-color:#c7c6c4;
+	border:1px solid #bbbdbf;
+	border-radius:2px;
+	font-family:'ColaborateBoldRegular', Arial, Helvetica, sans-serif;
+}
+
+input.ok:hover{
+	background-color:#CCC;
+}
+
+/*------------ news-list ------------ */
+
+div.contact-left-news h2{
+	font-size:14px;
+	font-family:fontP;
+	margin:40px 0 12px 0;	
+	border-bottom:2px solid #B9D0BC;
+}
+
+div.contact-left-news h3{
+	font-size:9px;
+	font-family:fontP;
+	text-align:right;
+	line-height:25px;
+	color:rgb(0,102,0);
+}
+
+div.contact-left-news a{
+	text-decoration:none;
+}
+
+div.contact-left-news a:hover h3{
+	background-color:#F5FAF8;
+	color:#990000;
+}
+
+div.contact-left-news li{
+	text-align:right;
+	list-style:circle;
+	font-size:11px;
+	line-height:18px;
+	font-family:'B Traffic',BTraffic,tahoma;	
+}
+
+div.contact-left-news ul{
+	margin-right:16px;	
+}
+
+/*----------- contact-right -----------------------*/
+
+div.contact-right-news{
+	min-height:inherit;
+	margin-left:200px;
+	padding:20px;
+}
+
+div.contact-right-news h2{
+	text-align:right;
+	font-size:22px;
+	color:rgb(0,102,0);
+	text-shadow:1px 2px 3px burlyWood;
+}
+
+div.contact-right-news a{
+	text-decoration:none;	
+}
+
+div.contact-right-news p{
+	text-align:justify;
+	font-size:12px;
+	font-family:fontP;
+	line-height:17px;	
+}
+
+@font-face
+{
+font-family:fontP;
+src:url(../font/BNazanin.ttf); 
+}
+
+div.content-date{
+	width:140px;
+	height:12px;
+	padding:3px;
+	background-color:beige;
+	border-radius:5px;
+	color:#6A7A80;
+	font-family:fontp;
+	font-size:11px;
+	text-align:center;	
+}
+
+div.contact-right-news .align{
+	float:left;	
+	margin-right:12px;
+	margin-bottom:5px;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/*--------------------------------------- History ---------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------- content----------*/
+
+div.content-history{
+	width:auto;
+	min-height:800px;
+	padding:22px;
+	margin-top:20px;
+}
+
+/*------------- content-pic -----------------*/
+
+div.content-pic-history{
+	width:auto;
+	min-height:200px;
+	display:block;
+	background:-webkit-linear-gradient(left,rgb(197,226,213),beige);
+	background:-moz-linear-gradient(left,rgb(197,226,213),beige);
+	background:-o-linear-gradient(left,rgb(197,226,213),beige);
+	border:2px solid rgb(197,226,213);
+	margin-bottom:20px;
+}
+
+div.old-pic{
+	float:right;
+	width:200px;
+	min-height:130px;
+	padding:34px 0;	
+}
+
+div.new-pic{
+	float:left;
+	width:200px;
+	min-height:100px;
+	padding:47px 0;	
+}
+
+div.text-history{
+	width:270px;
+	height:70px;
+	color:black;
+	margin:65px 200px 0 220px;
+	
+}
+
+div.text-history a{
+	text-decoration:none;
+	color:#663300;	
+}
+
+div.text-history a:hover{
+	color:#990000;	
+}
+
+div.text-history p{
+	font-family:myFont;	
+	font-size:50px;	
+}
+
+@font-face
+{
+font-family:myFont;
+src:url(../font/IranNastaliq.ttf); 
+}
+
+/*--------------------- content-info -------------------------*/
+
+div.content-info-history{
+	width:auto;
+	min-height:600px;
+	border:2px dashed rgb(197,226,213);	
+	border-radius:20px;
+	padding:20px;
+}
+
+div.text-pic{
+	float:left;
+	border:1px dotted #C5E2D5;
+	border-radius:5px;
+	margin-right:15px; 	
+}
+
+div.text-pic p.t{
+	position:relative;
+	font-size:9px;
+	color:#993300;
+	text-align:center;	
+}
+
+div.content-info-history h2 {
+	padding: 10px;
+	margin-top:9px;
+	font-size:22px;
+	color:rgb(0,90,0);
+}
+
+div.content-info-history a{
+	text-decoration:none;	
+}
+
+div.content-info-history h3{
+	text-align:right;
+	margin-top:10px;
+	font-size:18px;
+	color:rgb(0,90,0);
+	text-shadow:1px 2px 3px burlyWood;
+}
+
+div.content-info-history li{
+	text-align:right;
+	list-style:circle;
+	font-size:11px;
+	line-height:18px;
+	font-family:'B Traffic',BTraffic,tahoma;	
+}
+
+div.content-info-history ul{
+	margin-right:35px;	
+}
+
+span.shadow {
+	background-image: -webkit-radial-gradient(50% 0%, ellipse farthest-side, rgba(130,186,120, 0.25) 0%, rgba(130,186,120, 0) 100%);
+	background-image: -moz-radial-gradient(50% 0%, ellipse farthest-side, rgba(197,226,213, 0.25) 0%, rgba(197,226,213, 0) 100%);
+	background-image: -ms-radial-gradient(50% 0%, ellipse farthest-side, rgba(197,226,213, 0.25) 0%, rgba(197,226,213, 0) 100%);
+	background-image: -o-radial-gradient(50% 0%, ellipse farthest-side, rgba(197,226,213, 0.25) 0%, rgba(197,226,213, 0) 100%);
+	background-image: radial-gradient(50% 0%, ellipse farthest-side, rgba(197,226,213, 0.25) 0%, rgba(197,226,213, 0) 100%);
+	width: 100%;
+	height: 12px;
+	display: block;
+	position: relative;
+}
+
+div.content-info-history p{
+	text-align:justify;
+	font-size:12px;
+	line-height:20px;	
+	font-family:'B Traffic',BTraffic,tahoma;
+	margin-top:10px;
+	text-indent:20px;	
+}
+
+div.content-info-history span{
+	text-indent:20px;
+}
+
+div.text-pic .align{
+	float:left;	
+}
