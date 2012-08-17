@@ -23,7 +23,7 @@
 
 * [Ali Abdolahi](http://github.com/aliab) / Teacher & Technical Manager
 * [Ameneh Rezagholizadeh](http://github.com/parasto) / Project Manager / Developer
-* [Farzaneh Gafari](https://github.com/Asal-GHafari) / Designer / Developer
+* [Farzaneh Ghaphari](https://github.com/Asal-GHafari) / Designer / Developer / Data Gather
 * [Aileen Navazi](https://github.com/aileen-n)  / Designer / Developer / Data Gather
 * [Fatemeh Yahyaee](https://github.com/yahyaee) / Designer / Developer / Data Gather
 
