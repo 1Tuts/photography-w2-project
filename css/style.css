@@ -64,18 +64,18 @@ div.menu-train div.rotate span{
 }
 
 div.menu-train div.rotate{
-	width:320px;
-	height:29px;
+	width:331px;
+	height:20px;
 	border-bottom:1px solid rgb(153,153,153);
 	position:relative;
 	background-color:beige;
 	bottom:178px;
-	left:-144px;
+	left:-154px;
 	transform:rotate(-90deg);
-	-ms-transform: rotate(180deg); /* IE 9 */
+	-ms-transform: rotate(-90deg); /* IE 9 */
 	-webkit-transform: rotate(-90deg); /* Safari and Chrome */
-	-o-transform: rotate(180deg); /* Opera */
-	-moz-transform: rotate(180deg); /* Firefox */
+	-o-transform: rotate(-90deg); /* Opera */
+	-moz-transform: rotate(-90deg); /* Firefox */
 }
 
 div.menu-train div a{
