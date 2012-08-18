@@ -28,7 +28,7 @@ div.container{
 /*----------menu-----------*/
 
 div.show{
-	width:720px;
+	width:716px;
 	overflow:hidden;
 }
 
@@ -40,7 +40,8 @@ div.menu-train > div{
 	width:30px;
 	float:left;
 	overflow:hidden;	
-	-webkit-transition:all .75s;
+	-webkit-transition:all .75s;/* Safari and Chrome */
+	-moz-transition:all .75s;/* Firefox */
 }
 
 div.show:hover .menu-train > div{
@@ -64,18 +65,18 @@ div.menu-train div.rotate span{
 }
 
 div.menu-train div.rotate{
-	width:320px;
-	height:29px;
+	width:331px;
+	height:20px;
 	border-bottom:1px solid rgb(153,153,153);
 	position:relative;
 	background-color:beige;
 	bottom:178px;
-	left:-144px;
+	left:-154px;
 	transform:rotate(-90deg);
-	-ms-transform: rotate(180deg); /* IE 9 */
+	-ms-transform: rotate(-90deg); /* IE 9 */
 	-webkit-transform: rotate(-90deg); /* Safari and Chrome */
-	-o-transform: rotate(180deg); /* Opera */
-	-moz-transform: rotate(180deg); /* Firefox */
+	-o-transform: rotate(-90deg); /* Opera */
+	-moz-transform: rotate(-90deg); /* Firefox */
 }
 
 div.menu-train div a{
