@@ -1001,22 +1001,6 @@ div.contact-main-pic{
 	margin: auto;
 	margin-top: 38px;
 }
-
-/*------------content-header-contact------------*/
-div.header-contact {
-	width:auto;
-	height:200px;
-}
-div.header-contact-left {
-	width:400px;
-	height:200px;
-	float:left;
-}
-
-div.header-contact-rigth {
-	margin-left:400px;
-	height:200px;
-}
 /*-------------content-slider-contact-----------*/
 div.slider-can {
 	width:auto;
@@ -1034,7 +1018,7 @@ div.header-contact-left > h1 span {
 
 div.can-left {
 	float:left;
-	width:180px;
+	width:140px;
 	height:305px;
 	position:relative;
 	border-right:1px solid #999;
@@ -1073,7 +1057,7 @@ div.can-left li a:hover {
 /*-------------content-div-rigth-contact-----------*/
 
 div.can-rigth {
-	margin-left:180px;
+	margin-left:140px;
 	height:305px;
 	overflow:hidden;
 	border-top:1px solid #999;
@@ -1084,7 +1068,7 @@ div.slider-can-rigth {
 }
 
 div.slider-can-rigth div {
-	width:500px;
+	width:540px;
 	height:305px;
 	margin-bottom:10px;
 	padding:0;
@@ -1225,6 +1209,35 @@ form.frm-contact-us input[type="submit"] {
 	98%{left:-2115px  }
 	100%{ left:0 }
 }
+
+@-o-keyframes slider-lenz {
+	0%{ left:0 }
+	10%{ left:-710px }
+	20%{ left:-710px }
+	40%{ left:-710px }
+	50%{ left:-1410px }
+	70%{ left:-1410px }
+	80%{ left:-1410px}
+	90%{left:-2115px }
+	95%{left:-2115px  }
+	98%{left:-2115px  }
+	100%{ left:0 }
+}
+
+@-ms-keyframes slider-lenz {
+	0%{ left:0 }
+	10%{ left:-710px }
+	20%{ left:-710px }
+	40%{ left:-710px }
+	50%{ left:-1410px }
+	70%{ left:-1410px }
+	80%{ left:-1410px}
+	90%{left:-2115px }
+	95%{left:-2115px  }
+	98%{left:-2115px  }
+	100%{ left:0 }
+}
+
 
 div.lens-main-pic{
 	width: 720px;
