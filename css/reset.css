@@ -50,7 +50,7 @@
 
 	/* avoid visible outlines on DIV containers in Webkit browsers */
 	div {
-		outline:none none;
+		outline:none;
 	}
 
 	/* HTML 5 - adjusting visual formatting model to block level */
