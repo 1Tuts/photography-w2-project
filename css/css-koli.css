@@ -995,6 +995,25 @@ div.contact-content{
 	position:relative;
 }
 
+div.contact-lenz{
+background: #E7D9B2 -webkit-linear-gradient(top,rgba(255, 255, 255, .8),rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, .3)60% ,transparent 60%);
+    background:#F0F -o-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
+	background:#F0F -ms-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
+	background:#F0F -moz-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
+	-webkit-border-top-right-radius:700px;
+	-o-border-top-right-radius:700px;
+	-ms-border-top-right-radius:700px;
+	-moz-border-top-right-radius:700px;
+	-webkit-border-bottom-left-radius:700px;
+	-ms-border-bottom-left-radius:700px;
+	-o-border-bottom-left-radius:700px;
+	-moz-border-bottom-left-radius:700px;
+	-webkit-border-top-left-radius:20px;
+	-ms-border-top-left-radius:20px;
+	-o-border-top-left-radius:20px;
+	-moz-border-top-left-radius:20px;
+	}
+
 div.contact-main-pic{
 	width: 720px;
 	height: 318px;
@@ -1025,7 +1044,7 @@ div.can-left {
 }
 
 div.can-left ul {
-	width:181px;
+	width:141px;
 	height:100px;
 	margin:auto;
 	position:absolute;
@@ -1170,57 +1189,98 @@ form.frm-contact-us input[type="submit"] {
 
 @keyframes slider-lenz {
 	0%{ left:0 }
-	10%{ left:-710px }
+	10%{ left:0 }
+	15%{ left:0 }
+	18%{ left:-710px }
 	20%{ left:-710px }
-	40%{ left:-710px }
-	50%{ left:-1410px }
-	70%{ left:-1410px }
-	80%{ left:-1410px}
-	90%{left:-2115px }
-	95%{left:-2115px  }
-	98%{left:-2115px  }
+	25%{ left:-710px }
+	30%{ left:-1420px }
+	35%{ left:-1420px }
+	40%{ left:-1420px}
+	45%{left:-2125px }
+	50%{left:-2125px  }
+	55%{left:-2125px  }
+	60%{ left:-1420px }
+	65%{ left:-1420px }
+	70%{ left:-1420px}
+	75%{ left:-710px }
+	80%{ left:-710px }
+	85%{ left:-710px }
+	90%{ left:0 }
+	95%{ left:0 }
 	100%{ left:0 }
+	
 }
 
 @-webkit-keyframes slider-lenz {
 	0%{ left:0 }
-	10%{ left:-710px }
+	10%{ left:0 }
+	15%{ left:0 }
+	18%{ left:-710px }
 	20%{ left:-710px }
-	40%{ left:-710px }
-	50%{ left:-1410px }
-	70%{ left:-1410px }
-	80%{ left:-1410px}
-	90%{left:-2115px }
-	95%{left:-2115px  }
-	98%{left:-2115px  }
+	25%{ left:-710px }
+	30%{ left:-1420px }
+	35%{ left:-1420px }
+	40%{ left:-1420px}
+	45%{left:-2125px }
+	50%{left:-2125px  }
+	55%{left:-2125px  }
+	60%{ left:-1420px }
+	65%{ left:-1420px }
+	70%{ left:-1420px}
+	75%{ left:-710px }
+	80%{ left:-710px }
+	85%{ left:-710px }
+	90%{ left:0 }
+	95%{ left:0 }
 	100%{ left:0 }
 }
 
 @-moz-keyframes slider-lenz {
 	0%{ left:0 }
-	10%{ left:-710px }
+	10%{ left:0 }
+	15%{ left:0 }
+	18%{ left:-710px }
 	20%{ left:-710px }
-	40%{ left:-710px }
-	50%{ left:-1410px }
-	70%{ left:-1410px }
-	80%{ left:-1410px}
-	90%{left:-2115px }
-	95%{left:-2115px  }
-	98%{left:-2115px  }
+	25%{ left:-710px }
+	30%{ left:-1420px }
+	35%{ left:-1420px }
+	40%{ left:-1420px}
+	45%{left:-2125px }
+	50%{left:-2125px  }
+	55%{left:-2125px  }
+	60%{ left:-1420px }
+	65%{ left:-1420px }
+	70%{ left:-1420px}
+	75%{ left:-710px }
+	80%{ left:-710px }
+	85%{ left:-710px }
+	90%{ left:0 }
+	95%{ left:0 }
 	100%{ left:0 }
 }
 
 @-o-keyframes slider-lenz {
 	0%{ left:0 }
-	10%{ left:-710px }
+	10%{ left:0 }
+	15%{ left:0 }
+	18%{ left:-710px }
 	20%{ left:-710px }
-	40%{ left:-710px }
-	50%{ left:-1410px }
-	70%{ left:-1410px }
-	80%{ left:-1410px}
-	90%{left:-2115px }
-	95%{left:-2115px  }
-	98%{left:-2115px  }
+	25%{ left:-710px }
+	30%{ left:-1420px }
+	35%{ left:-1420px }
+	40%{ left:-1420px}
+	45%{left:-2125px }
+	50%{left:-2125px  }
+	55%{left:-2125px  }
+	60%{ left:-1420px }
+	65%{ left:-1420px }
+	70%{ left:-1420px}
+	75%{ left:-710px }
+	80%{ left:-710px }
+	85%{ left:-710px }
+	90%{ left:0 }
+	95%{ left:0 }
 	100%{ left:0 }
 }
 
@@ -1229,12 +1289,12 @@ form.frm-contact-us input[type="submit"] {
 	10%{ left:-710px }
 	20%{ left:-710px }
 	40%{ left:-710px }
-	50%{ left:-1410px }
-	70%{ left:-1410px }
-	80%{ left:-1410px}
-	90%{left:-2115px }
-	95%{left:-2115px  }
-	98%{left:-2115px  }
+	50%{ left:-1420px }
+	70%{ left:-1420px }
+	80%{ left:-1420px}
+	90%{left:-2125px }
+	95%{left:-2125px  }
+	98%{left:-2125px  }
 	100%{ left:0 }
 }
 
@@ -1249,14 +1309,18 @@ div.lens-main-pic{
 div.slider-lenz{
 	width:700px;
 	height:240px;
-	margin-top:10px;
+	margin-top:20px;
 	overflow:hidden;
 }
 
 div.slider-lenz-image{
-	width:2820px;
+	width:2840px;
 	position:relative;
 	-webkit-animation:slider-lenz 40s infinite;
+	-o-animation:slider-lenz 40s infinite;
+	-ms-animation:slider-lenz 40s infinite;
+	-moz-animation:slider-lenz 40s infinite;
+	border:1px solid  #000;
 }
 
 div.slider-lenz-image img{
@@ -1265,25 +1329,25 @@ div.slider-lenz-image img{
 		margin-right:5px;
 		border:20px solid gray;
 		border-image:url(../img/lenz/border.jpg) 20 20 20 20 stretch stretch;
-		box-shadow:0 0 15px #CCCCCC;
+		box-shadow:0 0 15px #666666;
 }
 
 div.lens-slider-can {
 	width:auto;
 	height:365px;
-	margin-top:0px;
+	margin-top:-40px;
 }
 
 div.lens-can-left {
 	float:left;
-	width:180px;
+	width:140px;
 	height:365px;
 	position:relative;
 	border-right:1px solid #999;
 }
 
 div.lens-can-left ul {
-	width:181px;
+	width:141px;
 	height:100px;
 	margin:auto;
 	position:absolute;
@@ -1313,7 +1377,7 @@ div.lens-can-left li a:hover {
 }
 
 div.lens-can-rigth {
-	margin-left:180px;
+	margin-left:140px;
 	height:365px;
 	overflow:hidden;
 	border-top:1px solid #999;
@@ -1380,10 +1444,11 @@ div.lens-page-two table td{
 }
 
 div.lens-slider-can-rigth div {
-	width:500px;
+	width:560px;
 	height:365px;
 	margin-bottom:10px;
 	padding:0;
+	position:relative;
 }
 
 div.lens-slider-can-rigth div p {
@@ -1426,7 +1491,7 @@ div.lens-slider-can-rigth div:last-child {
 div.header-deferent-camera {
 	width:auto;
 	height:25px;
-	margin-top:10px;
+	margin-top:40px;
 	padding:3px 10px;
 	padding-top:1px;
 }
@@ -1452,7 +1517,7 @@ div.text-deferent-camera {
 }
 
 div.text-deferent-camera-left {
-	width:550px;
+	width:470px;
 	height:110px;
 	float:left;
 	padding:10px;
@@ -1463,13 +1528,15 @@ div.text-deferent-camera-left {
 }
 
 div.text-deferent-camera-rigth {
-	margin-left:550px;
+	margin-left:530px;
 	height:125px;
 }
 
 div.text-deferent-camera-rigth img {
 	position:relative;
-	top:-10px;
+	top:-30px;
+	border:20px solid #333;
+	border-image:url(../img/border-image-20x20.jpg) 20 20 20 20 stretch stretch;
 }
 
 div.bg-color {
@@ -1485,9 +1552,17 @@ div.bg-color {
 }
 
 a.position{
-	position:relative;
-	top:0px;	
+	position:absolute;
+	margin-top:0;
+	top:0;
+	right:0;	
 }
+/*a.position-two{
+	position:relative;
+	top:13px;
+	right:0;	
+}*/
+
 
 div.page-six a{
 	display:block;
