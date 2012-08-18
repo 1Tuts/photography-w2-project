@@ -85,8 +85,8 @@ div.menu li:hover a{
 
 /*----------endmenu-----------*/
 
-/*---------------- content----------*/
-div.content{
+/*-------------gallery content----------*/
+div.gallerycontent{
 	width:702px;
 	height:730px;
 	margin:auto;
@@ -95,7 +95,7 @@ div.content{
 	position:relative;
 }
 
-div.p{
+div.gallerycontent div.p{
 	width:450px;
 	height:auto;
 	margin:70px auto;
@@ -104,7 +104,7 @@ div.p{
 	padding:15px;
 }
 
-div.p p{
+div.gallerycontent div.p p{
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	text-align:center;
@@ -112,7 +112,7 @@ div.p p{
 	line-height:20px;
 }
 
-div.gallery {
+div.gallery-uni {
 	width: 690px;
 	height:500px;
 	margin: 0 auto;
@@ -121,7 +121,7 @@ div.gallery {
 	-webkit-box-shadow: 2px 0px 50px gray;
 }
 
-div.gallery span {
+div.gallery-uni span {
 	position: absolute;
 	right: 0;
 	bottom: 15px;
@@ -134,7 +134,7 @@ div.gallery span {
 	font-weight: bold;
 }
 
-div.gallery h1 {
+div.gallery-uni h1 {
 	background-color: white;
 	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	padding:12px 5px;
@@ -153,7 +153,7 @@ div.gallery h1 {
 }
 
 
-div.gallery div{
+div.gallery-uni div{
 	position:absolute;
 	overflow:hidden;
 	opacity:0.7;
@@ -168,7 +168,7 @@ div.gallery div{
 	box-shadow:-5px -5px 15px #666;
 }
 
-div.gallery div.issue1{
+div.gallery-uni div.issue1{
 	-webkit-transform:rotate(-15deg);
 	-moz-transform:rotate(-15deg);
 	-o-transform:rotate(-15deg);
@@ -179,7 +179,7 @@ div.gallery div.issue1{
 	z-index:1;
 }
 
-div.gallery div.issue2{
+div.gallery-uni div.issue2{
 	-webkit-transform:rotate(-15deg);
 	-moz-transform:rotate(-15deg);
 	-o-transform:rotate(-15deg);
@@ -190,7 +190,7 @@ div.gallery div.issue2{
 	z-index:7;
 }
 
-div.gallery div.issue3{
+div.gallery-uni div.issue3{
 	-webkit-transform:rotate(15deg);
 	-moz-transform:rotate(15deg);
 	-o-transform:rotate(15deg);
@@ -201,7 +201,7 @@ div.gallery div.issue3{
 	z-index:4;
 }
 
-div.gallery div.issue4{
+div.gallery-uni div.issue4{
 	-webkit-transform:rotate(-7deg);
 	-moz-transform:rotate(-7deg);
 	-o-transform:rotate(-7deg);
@@ -213,7 +213,7 @@ div.gallery div.issue4{
 }
 
 
-div.gallery div.issue1:hover, div.gallery div.issue2:hover, div.gallery div.issue3:hover, div.gallery div.issue4:hover{
+div.gallery-uni div.issue1:hover, div.gallery-uni div.issue2:hover, div.gallery-uni div.issue3:hover, div.gallery-uni div.issue4:hover{
 	-webkit-transform:rotate(0deg);
 	-moz-transform:rotate(0deg);
 	-o-transform:rotate(0deg);
@@ -223,10 +223,71 @@ div.gallery div.issue1:hover, div.gallery div.issue2:hover, div.gallery div.issu
 	z-index:100;
 }
 
-div.gallery div.issue1 a, div.gallery div.issue2 a, div.gallery div.issue3 a, div.gallery div.issue4 a{
+div.gallery-uni div.issue1 a, div.gallery-uni div.issue2 a, div.gallery-uni div.issue3 a, div.gallery-uni div.issue4 a{
 	text-decoration:none;
 }
 
+/*--------------sub gallery content------------*/
+
+div.subgallery-content{
+	width:702px;
+	height:720px;
+	margin:auto;
+	margin-top:40px;
+	padding:14px;
+	position:relative;
+}
+
+div.subgallery-titr{
+	width:100px;
+	height:17px;
+	padding:3px;
+	background-color:beige;
+	border-radius:5px;
+	color:#6A7A80;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:center;
+	font-weight:bold;
+}
+
+div.subgallery-h1  a img{
+	width:180px;
+	height:180px;
+	margin:10px 0 10px 0;
+	-webkit-box-shadow: 0 4px 10px #999;
+	-moz-box-shadow: 0 4px 10px #999;
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	opacity:0.7;
+	z-index:100;
+
+}
+
+div.subgallery-h a img{
+	width:220px;
+	height:150px;
+	margin:10px 0 10px 0;
+	-webkit-box-shadow: 0 4px 10px #999;
+	-moz-box-shadow: 0 4px 10px #999;
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	opacity:0.7;
+	z-index:100;
+}
+
+div.subgallery-h a img:hover, div.subgallery-h1 a img:hover{
+	opacity:1;
+	-webkit-transform:scale(1.5,1.5);
+	-webkit-transform:all .75s linear;
+	-moz-transform:scale(1.5,1.5);
+	-moz-transform:all .75s linear;
+	z-index:100;
+}
 
 /*----------footer-----------*/
 div.head-footer{
