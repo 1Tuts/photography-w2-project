@@ -1320,7 +1320,6 @@ div.slider-lenz-image{
 	-o-animation:slider-lenz 40s infinite;
 	-ms-animation:slider-lenz 40s infinite;
 	-moz-animation:slider-lenz 40s infinite;
-	border:1px solid  #000;
 }
 
 div.slider-lenz-image img{
@@ -1537,6 +1536,7 @@ div.text-deferent-camera-rigth img {
 	top:-30px;
 	border:20px solid #333;
 	border-image:url(../img/border-image-20x20.jpg) 20 20 20 20 stretch stretch;
+	box-shadow:0 0 15px #333333;
 }
 
 div.bg-color {
@@ -1557,13 +1557,6 @@ a.position{
 	top:0;
 	right:0;	
 }
-/*a.position-two{
-	position:relative;
-	top:13px;
-	right:0;	
-}*/
-
-
 div.page-six a{
 	display:block;
 	text-align:center;
