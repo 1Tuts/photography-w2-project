@@ -374,12 +374,13 @@ div.img-a:hover{
 }
 
 div.content-left-3 p, div.content-left-1 p{
+	
+	width:265px;
 	text-align:right;
-	font-family:'B Homa',BHoma,tahoma;
-	font-size:11px;
+	font-family:'B Traffic',BTraffic,tahoma;
+	font-size:12px;
 	line-height:25px;
 	color:#4E4E4E;
-	text-decoration:none;	
 }
 
 /*---------------------- div.content-left-4 (famous photographer) ----------------------*/
@@ -415,12 +416,12 @@ div.img-b:hover{
 }	
 	
 div.content-left-4 p{
+	width:265px;
 	text-align:right;
-	font-family:myFont2;
+	font-family:'B Traffic',BTraffic,tahoma;
 	font-size:12px;
-	line-height:26px;
+	line-height:25px;
 	color:#4E4E4E;
-	text-decoration:none;	
 	}
 	
 /*------------- content-right -------------------*/
