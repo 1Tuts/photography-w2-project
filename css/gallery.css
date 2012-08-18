@@ -289,6 +289,66 @@ div.subgallery-h a img:hover, div.subgallery-h1 a img:hover{
 	z-index:100;
 }
 
+/*---------------------------------------------*/
+/*-----------------famous content--------------*/
+/*---------------------------------------------*/
+div.famous-content{
+	width:702px;
+	height:950px;
+	margin:auto;
+	margin-top:40px;
+}
+/*------------------agallery-------------------*/
+div.agallery{
+	width:702px;
+	height:295px;	
+	padding:2.5px 0;
+	}
+div.agallery img{
+	width:200px;
+	height:200px;
+	border:7px solid #CCC;
+	border-radius:10px 10px;
+	margin:60px 0 10px 0;
+	-webkit-box-shadow: 0 4px 10px #999;
+	-moz-box-shadow: 0 4px 10px #999;
+	-ms-box-shadow: 0 4px 10px #999;
+	-o-box-shadow: 0 4px 10px #999;
+	-webkit-transform: rotate(-4deg);
+	-moz-transform: rotate(-4deg);
+	-ms-transform: rotate(-4deg);
+	-o-transform: rotate(-4deg);
+	-webkit-transition: -webkit-transform .15s linear;
+	-moz-transition: -moz-transform .15s linear;
+	opacity:0.7;
+	}
+	
+div.agallery img:hover{
+	width:200px;
+	height:200px;
+	border:7px solid #CCC;
+	margin:60px 0 10px 0;
+	-webkit-box-shadow: 0 4px 10px #999;
+	-moz-box-shadow: 0 4px 10px #999;
+	-ms-box-shadow: 0 4px 10px #999;
+	-o-box-shadow: 0 4px 10px #999;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-webkit-transition: -webkit-transform .15s linear;
+	-moz-transition: -moz-transform .15s linear;
+	-ms-transition: -ms-transform .15s linear;
+	-o-transition: -o-transform .15s linear;
+	transform: scale(1.5,1.5);
+	-ms-transform: scale(1.5,1.5);
+	-webkit-transform: scale(1.5,1.5); 
+	-o-transform: scale(1.5,1.5);
+	-moz-transform: scale(1.5,1.5);
+	opacity:1;	
+	}
+
+
 /*----------footer-----------*/
 div.head-footer{
 	width:732px;
