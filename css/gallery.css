@@ -348,6 +348,179 @@ div.agallery img:hover{
 	opacity:1;	
 	}
 
+/*---------------------------------------------*/
+/*-----------------contact content--------------*/
+/*---------------------------------------------*/
+
+div.contact-content{
+	width:702px;
+	height:625px;
+	margin:auto;
+	margin-top:15px;
+	padding:15px;
+	position:relative;
+}
+
+div.contact-main-pic{
+	width: 720px;
+	height: 318px;
+	margin: auto;
+	margin-top: 38px;
+}
+
+/*----------------------------content-header-contact---------------------------*/
+div.header-contact {
+	width:auto;
+	height:200px;
+}
+div.header-contact-left {
+	width:400px;
+	height:200px;
+	float:left;
+}
+
+div.header-contact-rigth {
+	margin-left:400px;
+	height:200px;
+}
+/*----------------------------content-slider-contact---------------------------*/
+div.slider-can {
+	width:auto;
+	height:305px;
+	margin-top:33px;
+}
+/*----------------------------content-div-left-contact---------------------------*/
+div.header-contact-left > h1 span {
+	font-family:'B Homa', BHoma, tahoma;
+	font-size:36px;
+	color:#000;
+	position:relative;
+	top:50px;
+}
+div.can-left {
+	float:left;
+	width:180px;
+	height:305px;
+	position:relative;
+	border-right:1px solid #999;
+}
+div.can-left ul {
+	width:181px;
+	height:100px;
+	margin:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	direction:ltr;
+	text-align:left;
+}
+div.can-left li:hover {
+	border-right:2px solid #030;
+}
+div.can-left li a {
+	color:#666666;
+	font-family:'B Homa', BHoma, tahoma;
+	text-decoration:none;
+	font-size:14px;
+	line-height:20px;
+}
+div.can-left li a:hover {
+	color:#CCCCCC;
+	text-indent:50px;
+}
+/*----------------------------content-div-rigth-contact---------------------------*/
+div.can-rigth {
+	margin-left:180px;
+	height:305px;
+	overflow:hidden;
+	border-top:1px solid #999;
+}
+div.slider-can-rigth {
+	height:610px;
+}
+div.slider-can-rigth div {
+	width:500px;
+	height:305px;
+	margin-bottom:10px;
+	padding:0;
+}
+div.slider-can-rigth div:first-child {
+	background:url(../img/contact/contact-ue.jpg) left 100px no-repeat;
+}
+div.slider-can-rigth div p {
+	width:auto;
+	direction:rtl;
+	color:#666;
+	text-align:right;
+	font-weight:400px;
+}
+div.slider-can-rigth div p a {
+	color:#326699;
+	text-decoration:none;
+	padding:0 3px;
+}
+div.slider-can-rigth div p a:hover {
+	color:#FF9900;
+}
+div.slider-can-rigth div p span {
+	position:relative;
+	top:10px;
+	line-height:25px;
+}
+div.slider-can-rigth div p span.ask a {
+	display:block;
+}
+div.left_ask {
+	width:50px;
+	height:40px;
+	background:#009933;
+}
+div.slider-can-rigth div:last-child {
+	position:relative;
+	background:url(../img/contact/email.jpg) left 100px no-repeat;
+}
+form.frm-contact-us {
+	width:200px;
+	height:200px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:-170px;
+	margin:auto;
+}
+form.frm-contact-us input[type="text"], form.frm-contact-us textarea {
+	border:1px dotted #FF6600;
+	-webkit-border-radius:5px;
+	width:180px;
+	height:10px;
+	text-align:center;
+	padding:5px;
+}
+form.frm-contact-us input[type="text"]:hover, form.frm-contact-us textarea:hover, form.frm-contact-us select:hover {
+	background:#FFCC00;
+}
+form.frm-contact-us input[type="text"]:nth-child(3) {
+	border:1px dotted #00FF00 !important;
+}
+form.frm-contact-us select {
+	width:90px;
+	height:20px;
+	border:1px dotted #FF6600;
+	-webkit-border-radius:5px;
+}
+form.frm-contact-us textarea {
+	height:90px !important;
+}
+form.frm-contact-us input[type="submit"] {
+	width:50px;
+	height:20px;
+	background:#666666;
+	color:#FFFFFF;
+	-webkit-border-radius:5px;
+}
 
 /*----------footer-----------*/
 div.head-footer{
