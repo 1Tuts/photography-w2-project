@@ -88,28 +88,11 @@ div.menu li:hover a{
 /*---------------- content----------*/
 div.content{
 	width:702px;
-	height:730px;
+	height:530px;
 	margin:auto;
 	margin-top:33px;
 	padding:14px;
 	position:relative;
-}
-
-div.p{
-	width:450px;
-	height:auto;
-	margin:70px auto;
-	border:2px solid #EAE0C5;
-	border-radius:7px;
-	padding:15px;
-}
-
-div.p p{
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
-	text-align:center;
-	text-align:justify;
-	line-height:20px;
 }
 
 div.gallery {
