@@ -262,8 +262,8 @@ div.teckniq-content , div.teckniq-content-scroll{
 	margin-bottom:20px;
 	padding:15px;
 	position:relative;
-	box-shadow:2px 2px 15px #FF00FF;
-	border:1px solid #FF0080;
+	box-shadow:2px 2px 15px #CCC;
+	border:1px solid #FFF;
 	border-radius:10px;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;

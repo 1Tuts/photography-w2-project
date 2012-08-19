@@ -394,7 +394,7 @@ div.content-left-3 p, div.content-left-1 p{
 	font-size:11px;
 	line-height:25px;
 	color:#4E4E4E;
-	text-decoration:none;	
+	text-decoration:none;
 }
 
 /*---------------------- div.content-left-4 (famous photographer) ----------------------*/
@@ -431,9 +431,9 @@ div.img-b:hover{
 	
 div.content-left-4 p{
 	text-align:right;
-	font-family:myFont2;
-	font-size:12px;
-	line-height:26px;
+	font-family:'B Homa',BHoma,tahoma;
+	font-size:11px;
+	line-height:25px;
 	color:#4E4E4E;
 	text-decoration:none;	
 	}
