@@ -60,16 +60,51 @@ div.menu-train div.rotate span{
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
 	text-align:center;
-	color:#666;
+	color:#999;
 	font-weight:bold;
+}
+
+div.menu-train div.rotate1 span{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+}
+
+div.menu-train div.rotate1{
+	width:auto;
+	min-height:20px;
+	position:relative;
+	bottom:50px;
+	left:-280px;
+	transform:rotate(-90deg);
+	-ms-transform: rotate(-90deg); /* IE 9 */
+	-webkit-transform: rotate(-90deg); /* Safari and Chrome */
+	-o-transform: rotate(-90deg); /* Opera */
+	-moz-transform: rotate(-90deg); /* Firefox */
+	-webkit-transition:all .6s;/* Safari and Chrome */
+	-moz-transition:all .6s;/* Firefox */
+}
+
+div.show:hover div.menu-train div.rotate1{
+	width:auto;
+	min-height:20px;
+	position:relative;
+	bottom:40px;
+	left:-270px;
+	background-color:#CCC;
+	transform:rotate(0deg);
+	-ms-transform: rotate(0deg); /* IE 9 */
+	-webkit-transform: rotate(0deg); /* Safari and Chrome */
+	-o-transform: rotate(0deg); /* Opera */
+	-moz-transform: rotate(0deg); /* Firefox */
 }
 
 div.menu-train div.rotate{
 	width:331px;
 	height:20px;
-	border-bottom:1px solid rgb(153,153,153);
 	position:relative;
-	background-color:beige;
 	bottom:178px;
 	left:-154px;
 	transform:rotate(-90deg);
@@ -388,10 +423,10 @@ div.img-a:hover{
 	opacity:0.8;	
 }
 
-div.content-left-3 p, div.content-left-1 p{
+div.content-left-3 p, div.content-left-1 p, div.content-left-4 p{
 	text-align:right;
 	font-family:'B Homa',BHoma,tahoma;
-	font-size:11px;
+	font-size:13px;
 	line-height:25px;
 	color:#4E4E4E;
 	text-decoration:none;
@@ -429,15 +464,6 @@ div.img-b:hover{
 	opacity:0.8;	
 }	
 	
-div.content-left-4 p{
-	text-align:right;
-	font-family:'B Homa',BHoma,tahoma;
-	font-size:11px;
-	line-height:25px;
-	color:#4E4E4E;
-	text-decoration:none;	
-	}
-	
 /*------------- content-right -------------------*/
 	
 div.content-right{
@@ -459,7 +485,7 @@ div.content-right-1{
 
 div.content-right-1 p{
 	text-align:justify;
-	font-size:12px;
+	font-size:13px;
 	line-height:27px;	
 	text-indent:20px;
 	font-family:'B Traffic',BTraffic,tahoma;
