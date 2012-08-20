@@ -82,7 +82,7 @@ div.menu-train div.rotate , div.menu-train div.rotate1{
 	width:100px;
 	height:22px;
 	position:relative;
-	bottom:60px;
+	bottom:65px;
 	right:34px;
 	transform:rotate(-90deg);
 	-ms-transform: rotate(-90deg); /* IE 9 */
@@ -318,7 +318,6 @@ div.content-left-1-rigth{
 	margin-left:300px;
 	height:134px;
 	border:2px double gray;
-	box-shadow:0 0 15px gray;
 	background:url(../img/home/photo0202-mm.jpg)  top center no-repeat;
 	background-size:cover;
 	
@@ -343,18 +342,20 @@ div.content-left-2{
 }
 
 div.pic-hover{
-width: 450px;
-height: 125px;
-background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(120px 130px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
-position: absolute;
-bottom: 0px;
-left: 0px;
-opacity: 0.3;
-border: 1px solid black;
+	width: 450px;
+	height: 125px;
+	background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(120px 130px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.3;
+	border: 1px solid black;
 }
+
 div.pic-hover:hover{
-background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(510px 160px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
+	background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(510px 160px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
 }
+
 div.pic{
 	float:left;
 	width:135px;
@@ -396,7 +397,7 @@ div.img-a{
 	float:right;
 	border:2px solid #999;
 	margin:12px;
-	box-shadow:3px 3px 35px #999999;	
+	box-shadow:3px 3px 6px #999;	
 }
 
 div.img-a:hover{
@@ -407,7 +408,7 @@ div.content-left-3 p, div.content-left-1 p, div.content-left-4 p{
 	text-align:right;
 	font-family:'B Homa',BHoma,tahoma;
 	font-size:13px;
-	line-height:25px;
+	line-height:20px;
 	color:#4E4E4E;
 	text-decoration:none;
 }
@@ -437,7 +438,7 @@ div.img-b{
 	float:right;
 	border:2px solid #999;
 	margin:10px;
-	box-shadow:3px 3px 35px #999999;	
+	box-shadow:3px 3px 6px #999999;	
 }
 
 div.img-b:hover{
