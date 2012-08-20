@@ -72,27 +72,14 @@ div.menu-train div.rotate1 span{
 	font-weight:bold;
 }
 
-div.menu-train div.rotate1{
-	width:auto;
-	min-height:20px;
-	position:relative;
-	bottom:50px;
-	left:-280px;
-	transform:rotate(-90deg);
-	-ms-transform: rotate(-90deg); /* IE 9 */
-	-webkit-transform: rotate(-90deg); /* Safari and Chrome */
-	-o-transform: rotate(-90deg); /* Opera */
-	-moz-transform: rotate(-90deg); /* Firefox */
-	-webkit-transition:all .6s;/* Safari and Chrome */
-	-moz-transition:all .6s;/* Firefox */
-}
+
 
 div.show:hover div.menu-train div.rotate1{
-	width:auto;
-	min-height:20px;
+	width:100px;
+	height:20px;
 	position:relative;
-	bottom:40px;
-	left:-270px;
+	left:0;
+	bottom:45px;
 	background-color:#CCC;
 	transform:rotate(0deg);
 	-ms-transform: rotate(0deg); /* IE 9 */
@@ -101,17 +88,20 @@ div.show:hover div.menu-train div.rotate1{
 	-moz-transform: rotate(0deg); /* Firefox */
 }
 
-div.menu-train div.rotate{
-	width:331px;
-	height:20px;
+div.menu-train div.rotate , div.menu-train div.rotate1{
+	width:100px;
+	height:22px;
 	position:relative;
-	bottom:178px;
-	left:-154px;
+	bottom:60px;
+	right:34px;
 	transform:rotate(-90deg);
 	-ms-transform: rotate(-90deg); /* IE 9 */
 	-webkit-transform: rotate(-90deg); /* Safari and Chrome */
 	-o-transform: rotate(-90deg); /* Opera */
 	-moz-transform: rotate(-90deg); /* Firefox */
+	transition:all .6s;
+	-webkit-transition:all .6s;/* Safari and Chrome */
+	-moz-transition:all .6s;/* Firefox */
 }
 
 div.menu-train div a{
