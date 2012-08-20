@@ -994,9 +994,9 @@ div.contact-content{
 
 div.contact-lenz{
 background: #E7D9B2 -webkit-linear-gradient(top,rgba(255, 255, 255, .8),rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, .3)60% ,transparent 60%);
-    background:#F0F -o-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
-	background:#F0F -ms-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
-	background:#F0F -moz-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
+    background:#E7D9B2 -o-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
+	background:#E7D9B2 -ms-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
+	background:#E7D9B2 -moz-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
 	-webkit-border-top-right-radius:700px;
 	-o-border-top-right-radius:700px;
 	-ms-border-top-right-radius:700px;
@@ -1306,7 +1306,7 @@ div.lens-main-pic{
 div.slider-lenz{
 	width:700px;
 	height:240px;
-	margin-top:20px;
+	margin-top:-10px;
 	overflow:hidden;
 }
 
@@ -1328,10 +1328,28 @@ div.slider-lenz-image img{
 		box-shadow:0 0 15px #666666;
 }
 
+div.slider-lenz-txt{
+	margin-top:180px;
+	width:auto;
+	height:10px;
+	padding:20px 150px;
+}
+div.slider-lenz-txt p{
+	font-size:14px;
+	color:#999;
+	font-weight:bolder;
+	position:relative;
+	direction:rtl;
+	text-align:center;
+	margin-top:-15px;
+	text-shadow:0 0 5px #999999;
+}
+
+
 div.lens-slider-can {
 	width:auto;
 	height:365px;
-	margin-top:-40px;
+	margin-top:0px;
 }
 
 div.lens-can-left {
@@ -1493,18 +1511,25 @@ div.header-deferent-camera {
 }
 
 div.header-deferent-camera p {
+	font-size:1em;
 	width:400px;
+	height:18px;
 	position:relative;
-	margin-left:70px;
 	margin-top:10px;
-	color:#793131;
+	margin-left:40px;
+	margin-bottom:30px;
+	color:#CC3300;
 	direction:rtl;
 	border:1px dotted #FFF;
-	background:#E7D6E2;
 	-webkit-border-radius:6px;
 	-ms-border-radius:6px;
 	-o-border-radius:6px;
 	-moz-border-radius:6px;
+	background: #E7D6E2 -webkit-linear-gradient(top,rgba(255, 255, 255, .8),rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, .3)60% ,transparent 60%);
+    background:#E7D6E2 -o-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
+	background:#E7D6E2 -ms-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
+	background:#E7D6E2 -moz-linear-gradient(top,rgba(255,255,255,.8),rgba(255,255,255,.5) 30%, rgba(255,255,255,.3)60% ,transparent 60%);
+	text-shadow:0 0 5px #FF0000; 
 }
 
 div.text-deferent-camera {
@@ -1521,6 +1546,10 @@ div.text-deferent-camera-left {
 	direction:rtl;
 	color:#000 !important;
 	line-height:20px;
+}
+div.text-deferent-camera-left p {
+	font-size:1.04em;
+	font-weight:normal !important;
 }
 
 div.text-deferent-camera-rigth {
