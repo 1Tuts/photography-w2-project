@@ -56,13 +56,6 @@ div.show .menu-train .view{
 	width:595px;
 }
 
-div.menu-train div.rotate{
-	background-color:#000;
-	opacity:.5;
-	border:.5px solid #999;
-	border-radius:4px;
-}
-
 div.menu-train div.rotate span{
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
@@ -93,6 +86,10 @@ div.menu-train div.rotate , div.menu-train div.rotate1{
 	transition:all .6s;
 	-webkit-transition:all .6s;/* Safari and Chrome */
 	-moz-transition:all .6s;/* Firefox */
+	background-color:#000;
+	opacity:.5;
+	border:.5px solid #999;
+	border-radius:4px;
 }
 
 div.menu-train div a{
