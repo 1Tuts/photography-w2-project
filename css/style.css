@@ -37,7 +37,7 @@ div.menu-train{
 }
 
 div.menu-train > div{
-	width:35px;
+	width:32px;
 	float:left;
 	-webkit-transition:all .75s;/* Safari and Chrome */
 	-moz-transition:all .75s;/* Firefox */
@@ -53,6 +53,21 @@ div.show .menu-train > div:hover{
 
 div.show .menu-train .view{
 	width:595px;
+}
+
+div.menu-train div.rotate{
+	background-color:#000;
+	opacity:.5;
+	border:.5px solid #999;
+	border-radius:4px;
+}
+
+div.show div.menu-train div:hover{
+	transform:rotate(0deg);
+	-ms-transform: rotate(0deg); /* IE 9 */
+	-webkit-transform: rotate(0deg); /* Safari and Chrome */
+	-o-transform: rotate(0deg); /* Opera */
+	-moz-transform: rotate(0deg); /* Firefox */
 }
 
 div.menu-train div.rotate span{
