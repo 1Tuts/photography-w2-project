@@ -55,7 +55,7 @@ div.show .menu-train .view{
 	width:595px;
 }
 
-div.menu-train div.rotate{
+div.menu-train div.rotate, div.menu-train div.rotate1{
 	background-color:#000;
 	opacity:.5;
 	border:.5px solid #999;
