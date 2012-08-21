@@ -23,6 +23,7 @@ body{
 div.container{
 	width:760px;
 	margin:0 auto;
+	padding-top:1px;
 }
 
 /*----------menu-----------*/
@@ -55,7 +56,7 @@ div.show .menu-train .view{
 	width:595px;
 }
 
-div.menu-train div.rotate, div.menu-train div.rotate1{
+div.menu-train div.rotate{
 	background-color:#000;
 	opacity:.5;
 	border:.5px solid #999;
@@ -82,7 +83,7 @@ div.menu-train div.rotate , div.menu-train div.rotate1{
 	width:100px;
 	height:22px;
 	position:relative;
-	bottom:65px;
+	bottom:60px;
 	right:34px;
 	transform:rotate(-90deg);
 	-ms-transform: rotate(-90deg); /* IE 9 */
@@ -98,24 +99,327 @@ div.menu-train div a{
 	text-decoration:none;	
 }
 /*----------endmenu-----------*/
+/*----------start-topic-gallery-----------*/
+div.topic-gallery {
+	width:745px;
+	margin:auto;
+	height:205px;
+}
 
+div.topic-gallery-rigth {
+	width:80px;
+	height:inherit;
+	float:right;
+	position:relative;
+    -webkit-transition:all .75s;
+	-moz-transition:all .75s;
+	-ms-transition:all .75s;
+	-o-transition:all .75s;
+	background:#FFFFFF;
+}
+
+div.topic-gallery-rigth p {
+	position:absolute;
+	top:80px;
+	left:-45px;
+	font-size:18px;
+	color:#000000;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	display:inline;
+	background:#FFFFFF;
+	padding:10px 10px;
+	z-index:1;
+}
+div.topic-gallery-rigth ul{
+	width:130px;
+	height:70px;
+	position:absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;	
+	display:none;
+}
+
+div.topic-gallery-rigth ul a{
+	text-decoration:none;
+	color:#666666;
+	line-height:20px;
+}
+div.topic-gallery-rigth ul a:hover {
+	color:#333333;
+}
+@keyframes slider-topic-gallery {
+	0%{ bottom:0 }
+	5%{ bottom:0 }
+	10%{ bottom:0 }
+	15%{ bottom:215px }
+	15%{ bottom:215px }
+	20%{ bottom:430px }
+	20%{ bottom:430px }
+	25%{ bottom:645px }
+	25%{ bottom:645px}
+	30%{ bottom:860px }
+	30%{ bottom:860px }
+	35%{ bottom:1075px }
+	35%{ bottom:1075px  }
+	40%{ bottom:1290px }
+	40%{ bottom:1290px  }
+	45%{ bottom:1505px  }
+	45%{ bottom:1505px  }
+	50%{ bottom:1720px  }
+	50%{ bottom:1720px  }
+	55%{ bottom:1505px  }
+	55%{ bottom:1505px  }
+	60%{ bottom:1290px  }
+	60%{ bottom:1290px  }
+	65%{ bottom:1075px  }
+	65%{ bottom:1075px  }
+	70%{ bottom:860px  }
+	70%{ bottom:860px  }
+	75%{ bottom:645px  }
+	75%{ bottom:645px  }
+	80%{ bottom:430px  }
+	80%{ bottom:430px  }
+	85%{ bottom:215px  }
+	85%{ bottom:215px  }
+	90%{ bottom:215px  }
+	90%{ bottom:215px  }
+	100%{ bottom:0  }
+	100%{ bottom:0  }
+}
+@-webkit-keyframes slider-topic-gallery {
+	0%{ bottom:0 }
+	5%{ bottom:0 }
+	10%{ bottom:0 }
+	15%{ bottom:215px }
+	15%{ bottom:215px }
+	20%{ bottom:430px }
+	20%{ bottom:430px }
+	25%{ bottom:645px }
+	25%{ bottom:645px}
+	30%{ bottom:860px }
+	30%{ bottom:860px }
+	35%{ bottom:1075px }
+	35%{ bottom:1075px  }
+	40%{ bottom:1290px }
+	40%{ bottom:1290px  }
+	45%{ bottom:1505px  }
+	45%{ bottom:1505px  }
+	50%{ bottom:1720px  }
+	50%{ bottom:1720px  }
+	55%{ bottom:1505px  }
+	55%{ bottom:1505px  }
+	60%{ bottom:1290px  }
+	60%{ bottom:1290px  }
+	65%{ bottom:1075px  }
+	65%{ bottom:1075px  }
+	70%{ bottom:860px  }
+	70%{ bottom:860px  }
+	75%{ bottom:645px  }
+	75%{ bottom:645px  }
+	80%{ bottom:430px  }
+	80%{ bottom:430px  }
+	85%{ bottom:215px  }
+	85%{ bottom:215px  }
+	90%{ bottom:215px  }
+	90%{ bottom:215px  }
+	100%{ bottom:0  }
+	100%{ bottom:0  }
+}
+
+@-moz-keyframes slider-topic-gallery {
+	0%{ bottom:0 }
+	5%{ bottom:0 }
+	10%{ bottom:0 }
+	15%{ bottom:215px }
+	15%{ bottom:215px }
+	20%{ bottom:430px }
+	20%{ bottom:430px }
+	25%{ bottom:645px }
+	25%{ bottom:645px}
+	30%{ bottom:860px }
+	30%{ bottom:860px }
+	35%{ bottom:1075px }
+	35%{ bottom:1075px  }
+	40%{ bottom:1290px }
+	40%{ bottom:1290px  }
+	45%{ bottom:1505px  }
+	45%{ bottom:1505px  }
+	50%{ bottom:1720px  }
+	50%{ bottom:1720px  }
+	55%{ bottom:1505px  }
+	55%{ bottom:1505px  }
+	60%{ bottom:1290px  }
+	60%{ bottom:1290px  }
+	65%{ bottom:1075px  }
+	65%{ bottom:1075px  }
+	70%{ bottom:860px  }
+	70%{ bottom:860px  }
+	75%{ bottom:645px  }
+	75%{ bottom:645px  }
+	80%{ bottom:430px  }
+	80%{ bottom:430px  }
+	85%{ bottom:215px  }
+	85%{ bottom:215px  }
+	90%{ bottom:215px  }
+	90%{ bottom:215px  }
+	100%{ bottom:0  }
+	100%{ bottom:0  }
+}
+
+@-ms-keyframes slider-topic-gallery {
+	0%{ bottom:0 }
+	5%{ bottom:0 }
+	10%{ bottom:0 }
+	15%{ bottom:215px }
+	15%{ bottom:215px }
+	20%{ bottom:430px }
+	20%{ bottom:430px }
+	25%{ bottom:645px }
+	25%{ bottom:645px}
+	30%{ bottom:860px }
+	30%{ bottom:860px }
+	35%{ bottom:1075px }
+	35%{ bottom:1075px  }
+	40%{ bottom:1290px }
+	40%{ bottom:1290px  }
+	45%{ bottom:1505px  }
+	45%{ bottom:1505px  }
+	50%{ bottom:1720px  }
+	50%{ bottom:1720px  }
+	55%{ bottom:1505px  }
+	55%{ bottom:1505px  }
+	60%{ bottom:1290px  }
+	60%{ bottom:1290px  }
+	65%{ bottom:1075px  }
+	65%{ bottom:1075px  }
+	70%{ bottom:860px  }
+	70%{ bottom:860px  }
+	75%{ bottom:645px  }
+	75%{ bottom:645px  }
+	80%{ bottom:430px  }
+	80%{ bottom:430px  }
+	85%{ bottom:215px  }
+	85%{ bottom:215px  }
+	90%{ bottom:215px  }
+	90%{ bottom:215px  }
+	100%{ bottom:0  }
+	100%{ bottom:0  }
+}
+@-o-keyframes slider-topic-gallery {
+	0%{ bottom:0 }
+	5%{ bottom:0 }
+	10%{ bottom:0 }
+	15%{ bottom:215px }
+	15%{ bottom:215px }
+	20%{ bottom:430px }
+	20%{ bottom:430px }
+	25%{ bottom:645px }
+	25%{ bottom:645px}
+	30%{ bottom:860px }
+	30%{ bottom:860px }
+	35%{ bottom:1075px }
+	35%{ bottom:1075px  }
+	40%{ bottom:1290px }
+	40%{ bottom:1290px  }
+	45%{ bottom:1505px  }
+	45%{ bottom:1505px  }
+	50%{ bottom:1720px  }
+	50%{ bottom:1720px  }
+	55%{ bottom:1505px  }
+	55%{ bottom:1505px  }
+	60%{ bottom:1290px  }
+	60%{ bottom:1290px  }
+	65%{ bottom:1075px  }
+	65%{ bottom:1075px  }
+	70%{ bottom:860px  }
+	70%{ bottom:860px  }
+	75%{ bottom:645px  }
+	75%{ bottom:645px  }
+	80%{ bottom:430px  }
+	80%{ bottom:430px  }
+	85%{ bottom:215px  }
+	85%{ bottom:215px  }
+	90%{ bottom:215px  }
+	90%{ bottom:215px  }
+	100%{ bottom:0  }
+	100%{ bottom:0  }
+}
+
+
+div.topic-gallery-left {
+	margin-right:70px;
+	height:inherit;
+	-webkit-transition:all .75s;
+	-moz-transition:all .75s;
+	-ms-transition:all .75s;
+	-o-transition:all .75s;
+	overflow:hidden;
+	margin-left:0;
+}
+
+div.topic-gallery-left-slider{
+	width:670px;
+	height:1920px;
+	position:relative;
+	-webkit-animation:slider-topic-gallery 150s infinite;
+	-moz-animation:slider-topic-gallery 15s infinite;
+	-ms-animation:slider-topic-gallery 15s infinite;
+	-o-animation:slider-topic-gallery 15s infinite;
+	-webkit-transition:all .75s;
+	-moz-transition:all .75s;
+	-ms-transition:all .75s;
+	-o-transition:all .75s;
+}
+
+div.topic-gallery-left-slider img {
+	width:670px;
+	height:206px;
+	-webkit-transition:all .75s;
+	-moz-transition:all .75s;
+	-ms-transition:all .75s;
+	-o-transition:all .75s;
+	margin-bottom:5px;
+}
+div.topic-gallery-rigth:hover ul{
+	display:block;
+}
+div.topic-gallery-rigth:hover + div.topic-gallery-left img {
+	width:670px;
+	margin-left:0;
+	
+}
+	
+div.topic-gallery-rigth:hover + div.topic-gallery-left {
+	margin-right:130px;
+}
+div.topic-gallery-rigth:hover{
+	width:150px;
+}
+
+
+
+
+
+
+/*----------End-topic-gallery-----------*/
 
 div.main-pic{
 	width: 720px;
 	height: 318px;
 	margin: auto;
 	margin-top: 93px;
+	margin-bottom:25px;
 }
 
 /*----------content-up------------*/
 
-div.con-up{
-	width:712px;
-	height:185px;
-	margin:auto;
-	margin-top:25px;
-	padding:10px 15px;
-}
 
 /*------------ content-up first-slide-show -----------------*/
 
@@ -313,12 +617,24 @@ div.content-left-1-left{
 	height:136px;
 	float:left;
 }
+div.content-left-2-left{
+	width:290px;
+	height:136px;
+	float:left;
+}
 
 div.content-left-1-rigth{
 	margin-left:300px;
-	height:134px;
 	border:2px double gray;
-	background:url(../img/home/photo0202-mm.jpg)  top center no-repeat;
+	box-shadow:0 0 15px gray;
+	background-size:cover;
+	
+}
+div.content-left-2-rigth{
+	margin-left:300px;
+	
+	border:2px double gray;
+	box-shadow:0 0 15px gray;
 	background-size:cover;
 	
 }
@@ -342,20 +658,18 @@ div.content-left-2{
 }
 
 div.pic-hover{
-	width: 450px;
-	height: 125px;
-	background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(120px 130px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	opacity: 0.3;
-	border: 1px solid black;
+width: 450px;
+height: 125px;
+background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(120px 130px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
+position: absolute;
+bottom: 0px;
+left: 0px;
+opacity: 0.3;
+border: 1px solid black;
 }
-
 div.pic-hover:hover{
-	background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(510px 160px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
+background: rgba(0, 131, 204, 0.33) -webkit-radial-gradient(510px 160px ,circle cover,transparent,transparent 50%,rgba(255,255,255,.5)50%,white);
 }
-
 div.pic{
 	float:left;
 	width:135px;
@@ -378,11 +692,11 @@ div.content-left-3{
 	width:452px;
 	height:146px;
 	margin:auto;
-	margin-top:15px;
+	margin-top:25px;
 	border:1px dotted rgb(202,219,204);
 }
 
-div.content-left-3 a,div.content-left-1 h3 a{
+div.content-left-3 a,div.content-left-1 h3 a,div.content-left-2 h3 a{
 	text-align:right;
 	font-family:'B Traffic',BTraffic,tahoma;
 	font-size:20px;
@@ -396,21 +710,24 @@ div.img-a{
 	height:84px;
 	float:right;
 	border:2px solid #999;
-	margin:12px;
-	box-shadow:3px 3px 6px #999;	
+	margin:12px;	
 }
-
-div.img-a:hover{
+div.content-left-2-rigth img,div.content-left-1-rigth img{
+	box-shadow:3px 3px 35px #999999;
+}
+div.img-a:hover,div.content-left-2-rigth:hover,div.content-left-1-rigth:hover{
 	opacity:0.8;	
 }
 
-div.content-left-3 p, div.content-left-1 p, div.content-left-4 p{
+div.content-left-3 p, div.content-left-1 p, div.content-left-4 p,div.content-left-2 p{
 	text-align:right;
 	font-family:'B Homa',BHoma,tahoma;
 	font-size:13px;
-	line-height:20px;
+	line-height:25px;
 	color:#4E4E4E;
 	text-decoration:none;
+	padding:0 20px;
+	width:270px;
 }
 
 /*---------------------- div.content-left-4 (famous photographer) ----------------------*/
@@ -438,7 +755,7 @@ div.img-b{
 	float:right;
 	border:2px solid #999;
 	margin:10px;
-	box-shadow:3px 3px 6px #999999;	
+	box-shadow:3px 3px 35px #999999;	
 }
 
 div.img-b:hover{
