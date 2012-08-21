@@ -62,14 +62,6 @@ div.menu-train div.rotate{
 	border-radius:4px;
 }
 
-div.show div.menu-train div:hover{
-	transform:rotate(0deg);
-	-ms-transform: rotate(0deg); /* IE 9 */
-	-webkit-transform: rotate(0deg); /* Safari and Chrome */
-	-o-transform: rotate(0deg); /* Opera */
-	-moz-transform: rotate(0deg); /* Firefox */
-}
-
 div.menu-train div.rotate span{
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
@@ -85,23 +77,6 @@ div.menu-train div.rotate1 span{
 	color:#FFF;
 	font-weight:bold;
 }
-
-
-
-/*div.show:hover div.menu-train div.rotate1{
-	width:100px;
-	height:20px;
-	position:relative;
-	left:0;
-	bottom:45px;
-	background-color:#000;
-	opacity:.5;
-	transform:rotate(0deg);
-	-ms-transform: rotate(0deg); /* IE 9 */
-	/*-webkit-transform: rotate(0deg); /* Safari and Chrome */
-	/*-o-transform: rotate(0deg); /* Opera */
-	/*-moz-transform: rotate(0deg); /* Firefox */
-/*}*/
 
 div.menu-train div.rotate , div.menu-train div.rotate1{
 	width:100px;
