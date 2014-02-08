@@ -25,14 +25,15 @@ div.container{
 
 /*----------menu-----------*/
 div.menu{
-	width:700px;
-	height:56px;
-	margin:auto;	
+	width:550px;
+	height:36px;
+	margin:auto;
+	padding-top:20px;
 }
 
 div.menu > ul{
 	list-style:none;
-	width:700px;
+	width:auto;
 	margin:0 auto;
 }
 
@@ -51,29 +52,29 @@ div.menu ul li a{
 	color:#555;
 	font-family:myFont;
 	overflow:hidden;
-	font-size:34px;
+	font-size:28px;
 	height:52px;
 }
 @font-face
 {
 font-family:myFont;
-src:url(../IranNastaliq.ttf); 
+src:url(../font/BDavat.ttf); 
 }
 
 #home{
 	width:120px;	
 	}
 #gallery{
-	width:85px;	
+	width:40px;	
 	}
 #news{
 	width:70px;	
 	}
 #about{
-	width:112px;	
+	width:60px;	
 	}
 #contact{
-	width:120px;	
+	width:80px;	
 	}
 div.menu li:hover{}
 div.menu li:hover a{
@@ -101,12 +102,12 @@ div.menu li:hover ul a{
 	float:none;
 	color:#000;
 	font-family:myFont;
-	font-size:28px;
+	font-size:20px;
 }
 @font-face
 {
 font-family:myFont;
-src:url(../IranNastaliq.ttf); 
+src:url(../font/BDavat.ttf); 
 }
 
 div.menu li li a:hover{
@@ -122,7 +123,9 @@ div.main-pic{
 	width:716px;
 	height:318px;
 	margin:auto;
-	margin-top:46px;
+	margin-top:38px;
+	background-image:url(../img/22.jpg);
+	background-repeat:no-repeat;
 }
 
 div.con-up{
@@ -140,7 +143,7 @@ div.con-up-left{
 	width:225px;
 	height:183px;
 	float:left;
-	background-image:url(../2.jpg);
+	background-image:url(../img/2.jpg);
 }
 
 div.left-into{
@@ -154,7 +157,7 @@ div.con-up-right{
 	width:225px;
 	height:183px;
 	float:right;
-	background-image:url(../2.jpg);
+	background-image:url(../img/2.jpg);
 }
 
 div.right-into{
@@ -168,7 +171,7 @@ div.con-up-middle{
 	width:225px;
 	height:171px;
 	margin:auto;
-	background-image:url(../2.jpg);
+	background-image:url(../img/2.jpg);
 	position:relative;
 	padding-top:12px;
 }
@@ -199,30 +202,11 @@ div.content-left{
 	margin:auto;
 	float:left;
 }
-h6{
-	position:absolute;
-	right:0;
-	bottom:2px;
-}
-h6 a{
-	text-decoration:none;
-	color:#1D6F96;
-}
 
 div.content-left-1{
-	width:442px;
-	height:136px;
-	margin:auto;
-	padding:5px;
-	position:relative;	
-}
-div.content-left-1 p{
-	font-size:15px;
-	line-height:1.1;
-	text-align:justify;
-	text-decoration:none;
-	color:#555;
-	direction:rtl;
+	width:452px;
+	height:146px;
+	margin:auto;	
 }
 
 div.sp{
@@ -232,26 +216,11 @@ div.sp{
 }
 
 div.content-left-2{
-	width:422px;
-	height:106px;
+	width:452px;
+	height:146px;
 	margin:auto;
 	margin-top:15px;
-	padding:10px;
 }
-div.pic{
-	float:left;
-	width:135px;
-	height:100px;
-	margin-right:10px;
-}
-div.pic1{
-	margin-left:290px;
-	height:100px;
-}
-div.img:hover{
-	opacity:0.8;	
-}
-
 
 div.content-left-3{
 	width:452px;
@@ -259,10 +228,10 @@ div.content-left-3{
 	margin:auto;
 	margin-top:15px;
 }
-div.content-left-3 a,div.content-left-1 h3 a{
+div.content-left-3 a{
 	text-align:right;
 	font-family:myFont1;
-	font-size:28px;
+	font-size:20px;
 	line-height:50px;
 	color:#1D6F96;
 	text-decoration:none;	
@@ -270,7 +239,7 @@ div.content-left-3 a,div.content-left-1 h3 a{
 @font-face
 {
 font-family:myFont1;
-src:url(../IranNastaliq.ttf); 
+src:url(../font/BDavat.ttf); 
 }
 div.img-a{
 	width:126px;
@@ -290,14 +259,14 @@ div.content-left-3 p{
 	text-align:right;
 	font-family:myFont2;
 	font-size:12px;
-	line-height:26px;
+	line-height:20px;
 	color:#4E4E4E;
 	text-decoration:none;	
 	}
 @font-face
 {
 font-family:myFont2;
-src:url(../BDavat.ttf);
+src:url(../font/tahoma_0.ttf);
 }
 
 div.content-left-4{
@@ -309,7 +278,7 @@ div.content-left-4{
 div.content-left-4 a{
 	text-align:right;
 	font-family:myFont1;
-	font-size:28px;
+	font-size:20px;
 	line-height:50px;
 	color:#1D6F96;
 	text-decoration:none;	
@@ -333,7 +302,7 @@ div.content-left-4 p{
 	text-align:right;
 	font-family:myFont2;
 	font-size:12px;
-	line-height:26px;
+	line-height:20px;
 	color:#4E4E4E;
 	text-decoration:none;	
 	}
@@ -378,7 +347,7 @@ src:url(../font/IranNastaliq.ttf);
 /*-------------- content-right-2 (Link-pic) -----------------*/
 
 div.content-right-2{
-	width:240px;
+	width:230px;
 	height:65px;
 	margin:auto;
 	margin-top:15px;
