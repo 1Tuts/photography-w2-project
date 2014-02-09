@@ -7,7 +7,7 @@
 }
 
 div{
-	outline:1px solid #666;
+	outline:1px solid #666;	
 }
 
 div.clear{
@@ -25,14 +25,15 @@ div.container{
 
 /*----------menu-----------*/
 div.menu{
-	width:700px;
-	height:56px;
-	margin:auto;	
+	width:600px;
+	height:41px;
+	margin:auto;
+	padding-top:15px;
 }
 
 div.menu > ul{
 	list-style:none;
-	width:700px;
+	width:auto;
 	margin:0 auto;
 }
 
@@ -61,19 +62,19 @@ src:url(../IranNastaliq.ttf);
 }
 
 #home{
-	width:120px;	
+	width:70px;	
 	}
 #gallery{
-	width:85px;	
+	width:50px;	
 	}
 #news{
 	width:70px;	
 	}
 #about{
-	width:112px;	
+	width:60px;	
 	}
 #contact{
-	width:120px;	
+	width:80px;	
 	}
 div.menu li:hover{}
 div.menu li:hover a{
@@ -122,7 +123,7 @@ div.main-pic{
 	width: 716px;
 	height: 318px;
 	margin: auto;
-	margin-top: 38px;
+	margin-top: 41px;
 	background-image:url(../img/22.jpg);
 	background-repeat: no-repeat;
 }
@@ -380,7 +381,7 @@ src:url(../font/IranNastaliq.ttf);
 /*-------------- content-right-2 (Link-pic) -----------------*/
 
 div.content-right-2{
-	width:240px;
+	width:230px;
 	height:65px;
 	margin:auto;
 	margin-top:15px;
