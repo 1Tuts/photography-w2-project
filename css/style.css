@@ -123,7 +123,7 @@ div.main-pic{
 	width: 716px;
 	height: 318px;
 	margin: auto;
-	margin-top: 41px;
+	margin-top: 33px;
 	background-image:url(../img/22.jpg);
 	background-repeat: no-repeat;
 }
@@ -162,6 +162,34 @@ div.name{
 	filter:alpha(opacity=60);
 	
 	}
+	
+div.txt-g1{
+	width:180px;
+	height:20px;
+	margin:0 auto;
+	margin-top:12px;
+	background-color:#9CC;
+}
+
+div.txt-g2{
+	width:86px;
+	height:20px;
+	margin:0 auto;
+	margin-top:12px;
+	position:absolute;
+	top:140px;
+	right:0;
+	left:0;
+	background-color:#9CC;
+}
+
+div.txt-g3{
+	width:146px;
+	height:20px;
+	margin:0 auto;
+	margin-top:12px;
+	background-color:#9CC;
+}
 
 div.con-up-right{
 	width:225px;
