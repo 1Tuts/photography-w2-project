@@ -72,7 +72,7 @@ div.menu ul li a{
 @font-face
 {
 font-family:myFont;
-src:url(../photography/font/IranNastaliq.ttf); 
+src:url(../font/IranNastaliq.ttf); 
 }
 
 #home{
@@ -121,7 +121,7 @@ div.menu li:hover ul a{
 @font-face
 {
 font-family:myFont;
-src:url(../photography/font/IranNastaliq.ttf); 
+src:url(../font/IranNastaliq.ttf); 
 }
 
 div.menu li li a:hover{
