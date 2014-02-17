@@ -89,41 +89,6 @@ div.menu li:hover{}
 div.menu li:hover a{
     color:#800000;
 }
-/*----------submenu-----------*/
-
-div.menu li ul{
-	list-style:none;
-	position:absolute;
-	display:none;
-	padding:0;
-}
-
-div.menu li:hover ul{
-	display:block;
-	color:#f4eed3;	
-}
-
-div.menu li li{
-	float:none;
-}
-
-div.menu li:hover ul a{
-	float:none;
-	color:#f4eed3;
-	font-family:myFont;
-	font-size:20px;
-}
-@font-face
-{
-font-family:myFont;
-src:url(../font/IranNastaliq.ttf); 
-}
-
-div.menu li li a:hover{
-	color:#800000;
-}
-
-div.menu li ul li:hover{}
 
 /*----------endmenu-----------*/
 
